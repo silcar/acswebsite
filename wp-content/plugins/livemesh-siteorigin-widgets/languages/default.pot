@@ -1,0 +1,1943 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Calendar Slider\n"
+"POT-Creation-Date: 2016-07-23 18:28+0530\n"
+"PO-Revision-Date: 2015-10-26 13:24-0000\n"
+"Last-Translator: LiveMesh\n"
+"Language-Team: LiveMesh\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-ajax.php:56
+msgid "Sorry, an error occurred. Please refresh the page."
+msgstr ""
+
+#: admin/admin-ajax.php:82
+msgid "Sorry, an unknown error occurred..."
+msgstr ""
+
+#: admin/admin-ajax.php:123
+msgid "Saving plugin settings"
+msgstr ""
+
+#: admin/admin-ajax.php:124
+msgid "Plugin settings Saved"
+msgstr ""
+
+#: admin/admin-ajax.php:125
+msgid "Sorry, an error occurs while saving settings..."
+msgstr ""
+
+#: admin/admin-ajax.php:128
+msgid "Resetting plugin settings"
+msgstr ""
+
+#: admin/admin-ajax.php:129
+msgid "Plugin settings resetted"
+msgstr ""
+
+#: admin/admin-ajax.php:130
+msgid "Sorry, an error occurred while resetting settings"
+msgstr ""
+
+#: admin/admin-init.php:62 admin/views/documentation.php:214
+msgid "Livemesh Widgets"
+msgstr ""
+
+#: admin/admin-init.php:73
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:84
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:59
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:241
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:89
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:104
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:54
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:49
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:115
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:103
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:136
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:64
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:64
+msgid "Settings"
+msgstr ""
+
+#: admin/admin-init.php:83
+msgid "Documentation"
+msgstr ""
+
+#: admin/admin-init.php:93 admin/views/documentation.php:215
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: admin/views/admin-banner1.php:13 admin/views/admin-banner2.php:13
+#: admin/views/admin-banner3.php:13 includes/class-lsow-setup.php:173
+msgid "Livemesh SiteOrigin Widgets"
+msgstr ""
+
+#: admin/views/admin-banner1.php:13
+msgid "Plugin Documentation"
+msgstr ""
+
+#: admin/views/admin-banner2.php:13
+msgid "Plugin Settings"
+msgstr ""
+
+#: admin/views/admin-banner2.php:16
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/admin-banner2.php:18
+msgid "Reset"
+msgstr ""
+
+#: admin/views/admin-banner3.php:13 admin/views/settings.php:44
+msgid "Premium Upgrade"
+msgstr ""
+
+#: admin/views/documentation.php:34
+#, php-format
+msgid "Getting started with %1$s v%2$s"
+msgstr ""
+
+#: admin/views/documentation.php:36
+#, php-format
+msgid ""
+"Thanks for installing %1$s! We truly appreciate the support and the "
+"opportunity to share our work with you. Please visit the tabs below "
+"to get started on using our plugin to build your site!"
+msgstr ""
+
+#: admin/views/documentation.php:44
+msgid "Help File"
+msgstr ""
+
+#: admin/views/documentation.php:47
+msgid "Plugins"
+msgstr ""
+
+#: admin/views/documentation.php:51
+msgid "FAQ &amp; Support"
+msgstr ""
+
+#: admin/views/documentation.php:55
+msgid "Latest Updates"
+msgstr ""
+
+#: admin/views/documentation.php:111 admin/views/documentation.php:118
+#: admin/views/documentation.php:222 admin/views/documentation.php:228
+msgid "Plugins → SiteOrigin Widgets"
+msgstr ""
+
+#: admin/views/documentation.php:114 admin/views/documentation.php:219
+#: admin/views/documentation.php:231
+msgid "Livemesh Widgets→Settings"
+msgstr ""
+
+#: admin/views/documentation.php:137 admin/views/documentation.php:189
+msgid "Tools→Import"
+msgstr ""
+
+#: admin/views/documentation.php:242
+msgid "Appearance→Widgets"
+msgstr ""
+
+#: admin/views/documentation.php:1133
+msgid "SiteOrigin Widgets Bundle"
+msgstr ""
+
+#: admin/views/documentation.php:1136
+msgid "Install SiteOrigin Widgets Bundle"
+msgstr ""
+
+#: admin/views/documentation.php:1137
+#: admin/views/documentation.php:1159
+#: admin/views/documentation.php:1179
+msgid "Install Now"
+msgstr ""
+
+#: admin/views/documentation.php:1141
+#: admin/views/documentation.php:1163
+#: admin/views/documentation.php:1183
+msgid "Installed"
+msgstr ""
+
+#: admin/views/documentation.php:1155
+msgid "SiteOrigin Page Builder"
+msgstr ""
+
+#: admin/views/documentation.php:1158
+msgid "Install SiteOrigin Page Builder"
+msgstr ""
+
+#: admin/views/documentation.php:1175
+msgid "Portfolio Post Type"
+msgstr ""
+
+#: admin/views/documentation.php:1178
+msgid "Install Portfolio Post Type"
+msgstr ""
+
+#: admin/views/documentation.php:1314
+msgid "Why upgrade to Premium version?"
+msgstr ""
+
+#: admin/views/documentation.php:1315
+msgid ""
+"Premium version offers multiple benefits - more widgets, advanced "
+"features for widgets including those part of the free plugin and "
+"priority support through a dedicated support forum."
+msgstr ""
+
+#: admin/views/documentation.php:1319
+msgid "Know More"
+msgstr ""
+
+#: admin/views/documentation.php:1319
+msgid "Know More Details"
+msgstr ""
+
+#: admin/views/premium-upgrade.php:48 admin/views/settings.php:205
+msgid "Why upgrade to Premium Version of the plugin?"
+msgstr ""
+
+#: admin/views/premium-upgrade.php:166
+msgid "Contact Us"
+msgstr ""
+
+#: admin/views/premium-upgrade.php:166
+msgid "Write to Us"
+msgstr ""
+
+#: admin/views/settings.php:35
+msgid "General"
+msgstr ""
+
+#: admin/views/settings.php:38 admin/views/settings.php:125
+#: admin/views/settings.php:130
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/views/settings.php:41
+msgid "Debugging"
+msgstr ""
+
+#: admin/views/settings.php:54
+msgid "Theme Colors"
+msgstr ""
+
+#: admin/views/settings.php:59
+msgid "Theme Color Scheme"
+msgstr ""
+
+#: admin/views/settings.php:60
+msgid ""
+"Most themes use a single color as a major color across the site. "
+"This color is often used for links, titles, buttons, icons, "
+"highlights etc. <br> To maintain the consistent look with the "
+"theme, specify the default color used by the theme activated on "
+"your site. This color will be applied to the plugin widgets by "
+"default. <br>The hover color refers to the color set for links on "
+"mouse hover."
+msgstr ""
+
+#: admin/views/settings.php:67
+msgid "Theme Color"
+msgstr ""
+
+#: admin/views/settings.php:68
+msgid "Select the default theme color."
+msgstr ""
+
+#: admin/views/settings.php:79
+msgid "Theme Hover Color"
+msgstr ""
+
+#: admin/views/settings.php:80
+msgid "Select the default hover color for your theme."
+msgstr ""
+
+#: admin/views/settings.php:94
+msgid "Auto load"
+msgstr ""
+
+#: admin/views/settings.php:99
+msgid "Activate all plugin widgets"
+msgstr ""
+
+#: admin/views/settings.php:101
+msgid "You can selectively activate plugin widgets in"
+msgstr ""
+
+#: admin/views/settings.php:102
+msgid "Plugins->SiteOrigin Widgets."
+msgstr ""
+
+#: admin/views/settings.php:103
+msgid ""
+"Or you can choose to auto activate all the widgets part of this "
+"plugin by checking below."
+msgstr ""
+
+#: admin/views/settings.php:132
+msgid "Please enter custom CSS for custom styling of widgets"
+msgstr ""
+
+#: admin/views/settings.php:151
+msgid "Debug Mode"
+msgstr ""
+
+#: admin/views/settings.php:156
+msgid "Enable Script Debug Mode"
+msgstr ""
+
+#: admin/views/settings.php:158
+msgid ""
+"Use unminified Javascript files instead of minified ones to help "
+"developers debug an issue"
+msgstr ""
+
+#: admin/views/settings.php:171
+msgid "System Info"
+msgstr ""
+
+#: admin/views/settings.php:177
+msgid "System Information"
+msgstr ""
+
+#: admin/views/settings.php:178
+msgid "Server setup information useful for debugging purposes."
+msgstr ""
+
+#: admin/views/settings.php:197
+msgid "Premium Version"
+msgstr ""
+
+#: admin/views/settings.php:298
+msgid "Purchase Now"
+msgstr ""
+
+#: includes/class-lsow-setup.php:38
+msgid "Top Padding"
+msgstr ""
+
+#: includes/class-lsow-setup.php:41
+msgid "Top Padding for the row."
+msgstr ""
+
+#: includes/class-lsow-setup.php:47
+msgid "Bottom Padding"
+msgstr ""
+
+#: includes/class-lsow-setup.php:50
+msgid "Bottom Padding for the row."
+msgstr ""
+
+#: includes/class-lsow-setup.php:56
+msgid "Top Padding in Tablet resolution"
+msgstr ""
+
+#: includes/class-lsow-setup.php:59
+msgid "Top Padding for the row in tablet resolutions."
+msgstr ""
+
+#: includes/class-lsow-setup.php:65
+msgid "Bottom Padding in Tablet resolution"
+msgstr ""
+
+#: includes/class-lsow-setup.php:68
+msgid "Bottom Padding for the row in tablet resolutions."
+msgstr ""
+
+#: includes/class-lsow-setup.php:74
+msgid "Top Padding in Mobile resolution"
+msgstr ""
+
+#: includes/class-lsow-setup.php:77
+msgid "Top Padding for the row in mobile resolutions."
+msgstr ""
+
+#: includes/class-lsow-setup.php:83
+msgid "Bottom Padding in Mobile resolution"
+msgstr ""
+
+#: includes/class-lsow-setup.php:86
+msgid "Bottom Padding for the row in mobile resolutions."
+msgstr ""
+
+#: includes/class-lsow-setup.php:94
+msgid "Dark Background?"
+msgstr ""
+
+#: includes/class-lsow-setup.php:97
+msgid ""
+"Indicate if this row has a dark background color. Dark color scheme "
+"will be applied for all widgets in this row."
+msgstr ""
+
+#: includes/helper-functions.php:122 includes/helper-functions.php:126
+msgid "l, F, Y, g:i a"
+msgstr ""
+
+#: includes/helper-functions.php:126
+msgid "Y"
+msgstr ""
+
+#: includes/helper-functions.php:126
+msgid "m"
+msgstr ""
+
+#: includes/helper-functions.php:126
+msgid "d"
+msgstr ""
+
+#: includes/helper-functions.php:132
+msgid "By "
+msgstr ""
+
+#: includes/helper-functions.php:151
+msgid "All"
+msgstr ""
+
+#: includes/helper-functions.php:156
+msgid "View all items filed under "
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:15
+msgid "Livemesh Accordion"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:17
+msgid ""
+"Displays collapsible content panels to help display information "
+"when space is limited."
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:25
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:32
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:27
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:25
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:26
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:25
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:25
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:55
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:25
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:25
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:25
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:25
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:25
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:96
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:25
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:56
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:25
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:25
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:25
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:25
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:25
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:30
+msgid "Choose Accordion Style"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:37
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:38
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:37
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:37
+msgid "Style 1"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:38
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:39
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:38
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:38
+msgid "Style 2"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:39
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:40
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:39
+msgid "Style 3"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:45
+msgid "Allow to function like toggle?"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:46
+msgid "Check if multiple elements can be open at the same time."
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:51
+msgid "Accordion"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:52
+msgid "Panel"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:61
+msgid "Panel Title"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:62
+msgid "The title for the panel."
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:67
+msgid "Panel Content"
+msgstr ""
+
+#: includes/widgets/lsow-accordion-widget/lsow-accordion-widget.php:68
+msgid "The collapsible content of the panel in the accordion."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:21
+msgid "Livemesh Button"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:23
+msgid "Flat style buttons with rich set of customization options."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:37
+msgid "The URL to which button should point to."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:38
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:80
+msgid "Target URL"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:39
+msgid "http://targeturl.com"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:43
+msgid "The button title or text. "
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:44
+msgid "Button Text"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:45
+msgid "Buy Now"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:50
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:30
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:58
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:62
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:70
+msgid "Choose Icon Type"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:57
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:163
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:82
+msgid "None"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:58
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:37
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:45
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:65
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:104
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:69
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:83
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:59
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:38
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:66
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:70
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:84
+msgid "Icon Image"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:65
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:76
+msgid "Service Image."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:74
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:85
+msgid "Service Icon."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:89
+msgid "The CSS class name for the button element."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:90
+msgid "Class"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:96
+msgid "Inline CSS styling for the button element."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:97
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:102
+msgid "The color of the button."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:103
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:105
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:149
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:106
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:38
+msgid "Custom"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:107
+msgid "Black"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:108
+msgid "Blue"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:109
+msgid "Cyan"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:110
+msgid "Green"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:111
+msgid "Orange"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:112
+msgid "Pink"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:113
+msgid "Red"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:114
+msgid "Teal"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:115
+msgid "Transparent"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:116
+msgid "Semi Transparent"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:125
+msgid "Custom color of the button."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:126
+msgid "Custom button color"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:134
+msgid "Hover color of the button."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:135
+msgid "Custom button hover color"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:140
+msgid "Button Size"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:142
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:151
+msgid "Medium"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:143
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:152
+msgid "Large"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:144
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:150
+msgid "Small"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:150
+msgid "Display rounded button?"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:155
+msgid "Open the link in new window"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:160
+msgid "Alignment of the button displayed."
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:161
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:46
+msgid "Align"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:164
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:48
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:134
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:165
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:49
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:132
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/lsow-button-widget/lsow-button-widget.php:166
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:50
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:133
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:17
+msgid "Livemesh Carousel"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:19
+msgid "Display a collection of html elements as a carousel."
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:32
+msgid "HTML Elements"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:33
+msgid "HTML Element"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:42
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:54
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:39
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:39
+msgid "Name"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:43
+msgid "The title to identify the HTML element"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:48
+msgid "HTML element"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:49
+msgid "The HTML content for the carousel item."
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:56
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:35
+msgid "General Settings"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:61
+msgid ""
+"Custom CSS for presentation of the HTML elements. Will be embedded "
+"inline with the page."
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:69
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:95
+msgid "Carousel Settings"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:74
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:100
+msgid "Prev/Next Arrows?"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:80
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:106
+msgid "Show dot indicators for navigation?"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:85
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:111
+msgid "Autoplay?"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:86
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:112
+msgid "Should the carousel autoplay as in a slideshow."
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:93
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:119
+msgid "Autoplay speed in ms"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:100
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:126
+msgid "Autoplay animation speed in ms"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:106
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:132
+msgid "Pause on mouse hover?"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:112
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:146
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:181
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:64
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:119
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:138
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:172
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:207
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:108
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:145
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:69
+msgid "Columns per row"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:121
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:154
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:189
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:147
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:180
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:215
+msgid "Columns to scroll"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:130
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:162
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:197
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:128
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:145
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:166
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:156
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:188
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:223
+msgid "Gutter"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:131
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:163
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:198
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:146
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:167
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:157
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:189
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:224
+msgid "Space between columns."
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:137
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:259
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:135
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:163
+msgid "Responsive"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:142
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:264
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:140
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:168
+msgid "Tablet"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:168
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:203
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:280
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:305
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:152
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:173
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:194
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:229
+msgid "Resolution"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:169
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:281
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:153
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:195
+msgid "The resolution to treat as a tablet resolution."
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:177
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:289
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:161
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:203
+msgid "Mobile Phone"
+msgstr ""
+
+#: includes/widgets/lsow-carousel-widget/lsow-carousel-widget.php:204
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:306
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:174
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:230
+msgid "The resolution to treat as a mobile resolution."
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:15
+msgid "Livemesh Clients"
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:17
+msgid "Display one or more clients in a multi-column grid."
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:30
+msgid "Clients"
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:31
+msgid "Client"
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:40
+msgid "Client Name"
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:41
+msgid "The name of the client/customer."
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:45
+msgid "Client URL"
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:46
+msgid "The website of the client/customer."
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:50
+msgid "Client Logo"
+msgstr ""
+
+#: includes/widgets/lsow-clients-widget/lsow-clients-widget.php:52
+msgid "The logo image for the client/customer."
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:16
+msgid "Livemesh Heading"
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:18
+msgid "Create heading for display on the top of a section."
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:31
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:30
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:30
+msgid "Choose Style"
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:45
+msgid "Alignment of the heading."
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:57
+msgid "Heading Title"
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:58
+msgid "Title for the heading."
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:63
+msgid "Subheading"
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:64
+msgid "A subtitle displayed above the title heading."
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:73
+msgid "Short Text"
+msgstr ""
+
+#: includes/widgets/lsow-heading-widget/lsow-heading-widget.php:74
+msgid "Short text generally displayed below the heading title."
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:15
+msgid "Livemesh Hero Header"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:17
+msgid "Display a hero background with video or image background."
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:30
+msgid "Header Type"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:37
+msgid "Standard"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:44
+msgid "Custom Header"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:52
+msgid "Custom text"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:57
+msgid ""
+"Custom CSS for presentation of the Custom header elements. Will be "
+"embedded inline with the page."
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:66
+msgid "Standard Header"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:74
+msgid "Header text"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:79
+msgid "Sub-heading text"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:85
+msgid "Button text"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:90
+msgid "Button URL"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:95
+msgid "Open URL in a new window"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:102
+msgid "URL for Pointer Down"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:103
+msgid ""
+"If an URL for the pointer down is specified, the hero image will "
+"sport a pointer down indicator to help user smooth scroll to the "
+"section indicated by this URL."
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:108
+msgid "Background"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:113
+msgid "Background Type"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:120
+msgid "Cover Image"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:121
+msgid "Parallax Image"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:122
+msgid "YouTube Video"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:123
+msgid "HTML5 Video"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:129
+msgid "YouTube Background Video"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:139
+msgid "YouTube URL"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:140
+msgid ""
+"An URL of the YouTube video that will act as background video for "
+"this section."
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:145
+msgid "Choose the YouTube video quality"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:148
+msgid "High Resolution"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:153
+msgid "HD 720p"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:154
+msgid "HD 1080p"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:160
+msgid "Aspect ratio of the YouTube video"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:163
+msgid "16/9"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:164
+msgid "Auto"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:165
+msgid "4/3"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:174
+msgid "HTML5 Background videos"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:184
+msgid "MP4 Video file"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:189
+msgid "WebM Video file"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:194
+msgid "Ogg Video file"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:202
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:207
+msgid "Background Image"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:208
+msgid ""
+"This background image will be used as a placeholder image if "
+"YouTube or HTML5 video background option is chosen."
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:217
+msgid "Background Overlay"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:222
+msgid "Overlay color"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:227
+msgid "Overlay opacity"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:246
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:268
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:293
+msgid "Top padding"
+msgstr ""
+
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:252
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:274
+#: includes/widgets/lsow-hero-image-widget/lsow-hero-image-widget.php:299
+msgid "Bottom padding"
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:15
+msgid "Livemesh Icon List"
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:17
+msgid ""
+"Use images or icon fonts to create social icons list, show payment "
+"options etc."
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:44
+msgid "Icon List"
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:56
+msgid "Title for the Icon."
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:61
+msgid "Icon Image."
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:70
+msgid "Icon."
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:81
+msgid "The URL to which icon/image should point to. (optional)"
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:94
+msgid "Icon/Image size in pixels"
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:103
+msgid "Icon color"
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:113
+msgid "Icon hover color"
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:123
+msgid "Open the links in new window"
+msgstr ""
+
+#: includes/widgets/lsow-icon-list-widget/lsow-icon-list-widget.php:129
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:15
+msgid "Livemesh Odometers"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:17
+msgid ""
+"Display statistics as animated odometers in a multi-column grid."
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:30
+msgid "Odometers"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:31
+msgid "Odometer"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:40
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:40
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:39
+msgid "Stats Title"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:41
+msgid "The title for the odometer stats"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:46
+msgid "Start Value"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:47
+msgid "The start value for the odometer stats."
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:52
+msgid "Stop Value"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:53
+msgid "The stop value for the odometer stats."
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:72
+msgid "Stats Image."
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:81
+msgid "Stats Icon."
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:90
+msgid "Prefix"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:91
+msgid ""
+"The prefix string for the odometer stats. Examples include currency "
+"symbols like $ to indicate a monetary value."
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:96
+msgid "Suffix"
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:97
+msgid ""
+"The suffix string for the odometer stats. Examples include strings "
+"like hr for hours or m for million."
+msgstr ""
+
+#: includes/widgets/lsow-odometers-widget/lsow-odometers-widget.php:109
+msgid "Odometers per row"
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:15
+msgid "Livemesh Piecharts"
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:17
+msgid "Display statistics or skills as a percentage piechart."
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:30
+msgid "Piecharts"
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:31
+msgid "Piechart"
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:41
+msgid "The title for the piechart"
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:46
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:45
+msgid "Percentage Value"
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:47
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:46
+msgid "The percentage value for the stats."
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:59
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:51
+msgid "Bar color"
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:65
+msgid "Track color"
+msgstr ""
+
+#: includes/widgets/lsow-piecharts-widget/lsow-piecharts-widget.php:71
+msgid "Piecharts per row"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:15
+msgid "Livemesh Grid"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:17
+msgid ""
+"Showcase your work or posts or any custom post types with a "
+"filterable portfolio layout. Make sure that Portfolio Post Type "
+"plugin is activated"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:30
+msgid "Heading for the grid"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:35
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:30
+msgid "Posts query"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:36
+msgid ""
+"After you build the query, make sure you choose the right taxonomy "
+"below to display for your posts and filter on, based on the post "
+"type selected during build query."
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:41
+msgid "Choose the taxonomy to display and filter on."
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:42
+msgid ""
+"Choose the taxonomy information to display for posts/portfolio and "
+"the taxonomy that is used to filter the portfolio/post. Takes "
+"effect only if no taxonomy filters are specified when building "
+"query."
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:54
+msgid "Filterable?"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:60
+msgid "Choose a layout for the grid"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:67
+msgid "Fit Rows"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:68
+msgid "Masonry"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:74
+msgid "Link the image to the post/portfolio?"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:80
+msgid "Display project title below the post/portfolio?"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:86
+msgid "Display project excerpt/summary below the post/portfolio?"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:92
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:66
+msgid "Post Meta"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:97
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:71
+msgid "Display post author info below the post item?"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:103
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:77
+msgid "Display post date info below the post item?"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:109
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:83
+msgid "Display taxonomy info below the post item?"
+msgstr ""
+
+#: includes/widgets/lsow-portfolio-widget/lsow-portfolio-widget.php:129
+msgid "Space between columns in masonry grid."
+msgstr ""
+
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:15
+msgid "Livemesh Posts Carousel"
+msgstr ""
+
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:17
+msgid "Display blog posts or custom post types as a carousel"
+msgstr ""
+
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:40
+msgid "Choose the taxonomy to display info."
+msgstr ""
+
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:41
+msgid ""
+"Choose the taxonomy to use for display of taxonomy information for "
+"posts/custom post types."
+msgstr ""
+
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:48
+msgid "Link Images to Posts?"
+msgstr ""
+
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:54
+msgid "Display posts title below the post item?"
+msgstr ""
+
+#: includes/widgets/lsow-posts-carousel-widget/lsow-posts-carousel-widget.php:60
+msgid "Display post excerpt/summary below the post item?"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:15
+msgid "Livemesh Pricing Table"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:17
+msgid "Display pricing table in a multi-column grid."
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:30
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:31
+msgid "Pricing Plan"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:40
+msgid "Pricing Plan Title"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:41
+msgid "The title for the pricing plan"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:46
+msgid "Tagline Text"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:47
+msgid ""
+"Provide any subtitle or taglines like \"Most Popular\", \"Best Value"
+"\", \"Best Selling\", \"Most Flexible\" etc. that you would like to "
+"use for this pricing plan."
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:52
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:51
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:51
+msgid "Image"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:57
+msgid "Price Tag"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:58
+msgid "Enter the price tag for the pricing plan. HTML is accepted."
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:63
+msgid "Text for Pricing Link/Button"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:64
+msgid ""
+"Provide the text for the link or the button shown for this pricing "
+"plan."
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:69
+msgid "URL for the Pricing link/button"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:70
+msgid ""
+"Provide the target URL for the link or the button shown for this "
+"pricing plan."
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:75
+msgid "Open Button URL in a new window"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:80
+msgid "Highlight Pricing Plan"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:81
+msgid "Specify if you want to highlight the pricing plan."
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:86
+msgid "Pricing Plan Details"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:87
+msgid "Pricing Item"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:100
+msgid "Value"
+msgstr ""
+
+#: includes/widgets/lsow-pricing-table-widget/lsow-pricing-table-widget.php:120
+msgid "Pricing Columns per row"
+msgstr ""
+
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:15
+msgid "Livemesh Services"
+msgstr ""
+
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:17
+msgid "Create services to display in a column grid."
+msgstr ""
+
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:45
+msgid "Services"
+msgstr ""
+
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:46
+msgid "Service"
+msgstr ""
+
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:57
+msgid "Title of the service."
+msgstr ""
+
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:94
+msgid "Short description"
+msgstr ""
+
+#: includes/widgets/lsow-services-widget/lsow-services-widget.php:95
+msgid "Provide a short description for the service"
+msgstr ""
+
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:15
+msgid "Livemesh Stats Bars"
+msgstr ""
+
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:17
+msgid "Display statistics or skills as a percentage stats bar."
+msgstr ""
+
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:29
+msgid "Stats Bars"
+msgstr ""
+
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:30
+msgid "Stats Bar"
+msgstr ""
+
+#: includes/widgets/lsow-stats-bar-widget/lsow-stats-bar-widget.php:40
+msgid "The title for the stats bar"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:15
+msgid "Livemesh Tabs"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:17
+msgid "Display tabbed content in variety of styles."
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:30
+msgid "Choose Tab Style"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:37
+msgid "Tab Style 1"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:38
+msgid "Tab Style 2"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:39
+msgid "Tab Style 3"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:40
+msgid "Tab Style 4"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:41
+msgid "Tab Style 5"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:42
+msgid "Tab Style 6"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:43
+msgid "Vertical Tab Style 1"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:44
+msgid "Vertical Tab Style 2"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:45
+msgid "Vertical Tab Style 3"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:46
+msgid "Vertical Tab Style 4"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:52
+msgid "Tab highlight color"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:62
+msgid "Mobile Resolution"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:63
+msgid ""
+"The resolution to treat as a mobile resolution for invoking "
+"responsive tabs."
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:71
+msgid "Some styles may ignore icons chosen."
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:90
+msgid "Tabs"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:91
+msgid "Single Tab"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:100
+msgid "Tab Title"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:101
+msgid "The title for the tab shown as name for tab navigation."
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:106
+msgid "Tab Image."
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:116
+msgid "Tab Icon."
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:126
+msgid "Tab Content"
+msgstr ""
+
+#: includes/widgets/lsow-tabs-widget/lsow-tabs-widget.php:127
+msgid "The content of the tab."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:15
+msgid "Livemesh Team Members"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:17
+msgid "Create team members to display in a column grid."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:44
+msgid "Team Members"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:45
+msgid "Team Member"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:55
+msgid "Name of the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:60
+msgid "Team member image."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:65
+msgid "Position"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:66
+msgid "Specify the position/title of the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:71
+msgid "Short details"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:72
+msgid "Provide a short writeup for the team member"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:78
+msgid "Social profile"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:82
+msgid "Email Address"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:83
+msgid "Enter the email address of the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:88
+msgid "Facebook Page URL"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:89
+msgid "URL of the Facebook page of the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:94
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:95
+msgid "URL of the Twitter page of the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:100
+msgid "LinkedIn Page URL"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:101
+msgid "URL of the LinkedIn profile of the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:106
+msgid "Pinterest Page URL"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:107
+msgid "URL of the Pinterest page for the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:112
+msgid "Dribbble Profile URL"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:113
+msgid "URL of the Dribbble profile of the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:118
+msgid "GooglePlus Page URL"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:119
+msgid "URL of the Google Plus page of the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:124
+msgid "Instagram Page URL"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/lsow-team-members-widget.php:125
+msgid "URL of the Instagram feed for the team member."
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/tpl/social-profile.php:24
+msgid "Send an email"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/tpl/social-profile.php:26
+msgid "Follow on Facebook"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/tpl/social-profile.php:28
+msgid "Subscribe to Twitter Feed"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/tpl/social-profile.php:30
+msgid "View LinkedIn Profile"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/tpl/social-profile.php:32
+msgid "Follow on Google Plus"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/tpl/social-profile.php:34
+msgid "View Instagram Feed"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/tpl/social-profile.php:36
+msgid "Subscribe to Pinterest Feed"
+msgstr ""
+
+#: includes/widgets/lsow-team-members-widget/tpl/social-profile.php:38
+msgid "View Dribbble Portfolio"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:15
+msgid "Livemesh Testimonials Slider"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:17
+msgid ""
+"Share your product/service testimonials in a responsive slider."
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:29
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:29
+msgid "Testimonials"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:30
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:30
+msgid "Testimonial"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:40
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:40
+msgid "The author of the testimonial"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:45
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:45
+msgid "Author Details"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:46
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:46
+msgid ""
+"The details of the author like company name, position held, company "
+"URL etc. HTML accepted."
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:56
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:56
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:57
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:57
+msgid "What your customer had to say"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:69
+msgid "Slideshow speed"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:75
+msgid "Animation Speed"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:81
+msgid "Pause slider on action."
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:82
+msgid ""
+"Should the slideshow pause once user initiates an action using "
+"navigation/direction controls."
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:88
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:89
+msgid "Should the slider pause on mouse hover over the slider."
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:95
+msgid "Direction Navigation"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:96
+msgid "Should the slider have direction navigation."
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:102
+msgid "Navigation Controls"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-slider-widget/lsow-testimonials-slider-widget.php:103
+msgid "Should the slider have navigation controls."
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:15
+msgid "Livemesh Testimonials"
+msgstr ""
+
+#: includes/widgets/lsow-testimonials-widget/lsow-testimonials-widget.php:17
+msgid "Display testimonials in a responsive multi-column grid."
+msgstr ""
+
+#: livemesh-so-widgets.php:75 livemesh-so-widgets.php:84
+msgid "Cheatin&#8217; huh?"
+msgstr ""

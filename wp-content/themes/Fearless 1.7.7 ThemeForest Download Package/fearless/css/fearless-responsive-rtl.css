@@ -1,0 +1,50 @@
+/* =Menus
+-------------------------------------------------------------- */
+
+@media only screen and ( max-width: 1156px ) {
+	.rtl #primary-navigation .menu > li > a.sf-with-ul {
+		padding-right: 1.1em;
+		padding-left: 0.8em;
+	}
+	.rtl #primary-navigation .menu > li > a.sf-with-ul:after {
+		right: auto;
+		left: 0.5em;
+	}
+}
+
+
+/* =Mobile Navigation
+-------------------------------------------------------------- */
+
+@media only screen and ( max-width: 960px ) {
+	.rtl #primary-navigation:before {
+		margin-right: 0;
+		margin-left: 0.8em;
+		right: auto;
+		left: 35%;
+	}
+	
+}
+
+
+/* =Menubar search
+-------------------------------------------------------------- */
+
+@media only screen and ( max-width: 960px ) {
+	.rtl #menubar-search {
+		left: 0;
+	}
+	.rtl #menubar-search:before {
+		left: 0.4em;
+	}
+}
+
+
+/* =Post Archive Layouts
+----------------------------------------------- */
+
+@media only screen and ( max-width: 640px ) {
+	.rtl .hentry.layout-2col {
+		margin-left: 0;
+	}
+}

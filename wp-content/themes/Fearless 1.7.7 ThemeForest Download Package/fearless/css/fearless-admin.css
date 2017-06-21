@@ -1,0 +1,45 @@
+.rwmb-field {
+	clear: both;
+}
+.rwmb-field.review-criteria-label,
+.rwmb-field.review-criteria-value {
+	margin: 0;
+	float: left;
+}
+.rwmb-field.review-final-score {
+	padding-top: 1em;
+}
+.postbox .rwmb-label {
+	width: 20%;
+}
+
+/* Criteria label wrapper */
+div.review-criteria-label {
+	width: 250px;
+}
+/* Criteria label label */
+div.review-criteria-label .rwmb-label {
+	width: 90px;
+	padding-top: 3px;
+}
+/* Criteria label input */
+div.review-criteria-label .rwmb-input,
+div.review-criteria-label .rwmb-input input {
+	width: 150px;
+}
+
+
+/* Criteria value wrapper */
+div.review-criteria-value {
+	width: 200px;
+	clear: none;
+}
+/* Criteria value label */
+div.review-criteria-value .rwmb-label {
+	width: 35px;
+	padding-top: 3px;
+}
+/* Criteria value input */
+div.review-criteria-value .rwmb-input input {
+	width: 35px;
+}

@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'lsow-icomoon';
+    src:    url('fonts/icomoon/icomoon.eot?bh4obs');
+    src:    url('fonts/icomoon/icomoon.eot?bh4obs#iefix') format('embedded-opentype'),
+        url('fonts/icomoon/icomoon.ttf?bh4obs') format('truetype'),
+        url('fonts/icomoon/icomoon.woff?bh4obs') format('woff'),
+        url('fonts/icomoon/icomoon.svg?bh4obs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="lsow-icon-"], [class*=" lsow-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'lsow-icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.lsow-icon-close:before {
+    content: "\e911";
+    }
+.lsow-icon-menu:before {
+    content: "\e914";
+    }
+.lsow-icon-menu-2:before {
+    content: "\e915";
+    }
+.lsow-icon-email:before {
+    content: "\e910";
+    }
+.lsow-icon-plus:before {
+    content: "\e912";
+    }
+.lsow-icon-arrow-right-toggle:before {
+    content: "\e913";
+    }
+.lsow-icon-arrow-left:before {
+    content: "\e900";
+    }
+.lsow-icon-arrow-right:before {
+    content: "\e901";
+    }
+.lsow-icon-aim:before {
+    content: "\e902";
+    }
+.lsow-icon-behance:before {
+    content: "\e903";
+    }
+.lsow-icon-dribbble:before {
+    content: "\e904";
+    }
+.lsow-icon-facebook:before {
+    content: "\e905";
+    }
+.lsow-icon-flickr:before {
+    content: "\e906";
+    }
+.lsow-icon-googleplus:before {
+    content: "\e907";
+    }
+.lsow-icon-linkedin:before {
+    content: "\e908";
+    }
+.lsow-icon-pinterest:before {
+    content: "\e909";
+    }
+.lsow-icon-skype:before {
+    content: "\e90a";
+    }
+.lsow-icon-twitter:before {
+    content: "\e90b";
+    }
+.lsow-icon-vimeo:before {
+    content: "\e90c";
+    }
+.lsow-icon-zerply:before {
+    content: "\e90d";
+    }
+.lsow-icon-quote:before {
+    content: "\e90e";
+    }
+.lsow-icon-video-play:before {
+    content: "\e90f";
+    }
+

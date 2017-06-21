@@ -1,0 +1,431 @@
+#rednaoSmartDonaitions hr {
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#rednaoSmartDonaitions h2 {
+    margion-top: 0px;
+    margin-bottom: 0px;
+}
+
+#rednaoSmartDonaitions .category {
+    margin-top: 10px;
+    margin-left:50px;
+
+}
+
+#rednaoSmartDonaitions .description {
+}
+
+#rednaoSmartDonaitions input {
+
+}
+
+
+
+#rednaoSmartDonaitions .treeDiv{
+    cursor: hand;
+    cursor: pointer;
+}
+
+
+#rednaoSmartDonaitions .treeButton{
+
+    display:inline;
+
+}
+
+#rednaoSmartDonaitions .treeDiv h2{
+
+    display:inline;
+    font-family: verdana;
+
+
+
+}
+
+#rednaoSmartDonaitions .description{
+    color:#A0A0A0;
+    font-family: helvetica;
+    font-size: smaller;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+/*Panel of donations************************************/
+
+#smartdonationsItemsContainer
+{
+    width:702px;
+    height: 500px;
+    margin-top:45px;
+
+
+}
+
+#smartDonationsItemsContainerHeader{
+    width:100%;
+    height: 30px;
+
+
+
+
+
+    border-radius: 6px 6px 0 0;
+
+
+    background: #e8e8e8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e8e8e8 0%, #ffffff 13%, #d3d3d3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(13%,#ffffff), color-stop(100%,#d3d3d3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e8e8e8 0%,#ffffff 13%,#d3d3d3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e8e8e8 0%,#ffffff 13%,#d3d3d3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e8e8e8 0%,#ffffff 13%,#d3d3d3 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e8e8e8 0%,#ffffff 13%,#d3d3d3 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
+
+
+    -moz-box-shadow: 1px 1px 5px #888;
+    -webkit-box-shadow: 1px 1px 5px #888;
+    box-shadow: 1px 1px 5px #888;
+
+}
+#smartDonationsItemsContainerBody
+{
+    background-color: #f3f4f6;
+    width: 100%;
+    height: 100%;
+
+    -webkit-border-bottom-right-radius: 7px;
+    -moz-border-bottom-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -moz-border-bottom-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    -moz-box-shadow: 1px 1px 5px #888;
+    -webkit-box-shadow: 1px 1px 5px #888;
+    box-shadow: 1px 1px 5px #888;
+
+    overflow: hidden;
+
+}
+
+
+#smartDonationsItemsContainerList{
+   width: 100%;
+    height: 100%;
+    display: inline-block;
+
+
+
+}
+
+#smartDonationsSlideAnimation{
+    position:relative;
+    width:1500px;
+}
+
+
+#smartDonationsItemsContainerHeader span{
+    font-family: verdana;
+    font-size: 15px;
+    top: 7px;
+    left:5px;
+    position:relative;
+
+}
+
+.smartDonationsItem {
+    display: inline-block;
+    width:220px;
+    height:100px;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom:5px;
+    margin-top:5px;
+    background-color:#F7F7F7;
+
+
+
+    border-radius: 10px;
+
+    -moz-box-shadow: 1px 1px 5px #888;
+    -webkit-box-shadow: 1px 1px 5px #888;
+    box-shadow: 1px 1px 5px #888;
+
+    cursor: hand;
+    cursor: pointer;
+}
+
+
+
+.smartDonationsItem :hover {
+
+    background-color:#ffffff;
+    border-radius: 10px;
+
+    -moz-box-shadow: 1px 1px 5px #888;
+    -webkit-box-shadow: 1px 1px 5px #888;
+    box-shadow: 1px 1px 5px #888;
+
+
+
+
+}
+
+#smartDonationsItemsList{
+    display:inline-block;
+    width:700px;
+}
+
+#smartDonationsConfiguration{
+    width:700px;
+    height:500px;
+
+    display:inline-block;
+    float: right;
+    position:relative;
+}
+
+
+#smartDonationsBackFromConfiguration{
+    cursor: hand;
+    cursor: pointer;
+}
+
+#smartDonationsItemTitle{
+    font-family: Verdana;
+    position:relative;
+    font-size: 30px;
+    font-weight: bold;
+    top:-10px;
+}
+
+
+
+
+#smartDonationsPreviewContainer{
+    margin-top:20px;
+}
+
+#smartDonationsPreviewText{
+    margin-left: 5px;
+    color: #d3d3d3;
+    font-family: Verdana;
+}
+
+#smartDonationsCustomFields{
+
+    width: 100%;
+    height: 300px;
+}
+
+#smartDonationsPreview{
+    width:680px;
+    height:120px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top:20px;
+
+    border-style: dotted;
+    border-width: 1px;
+    margin-left: 9px;
+
+}
+
+
+
+
+/*Configuration Table************************/
+
+#smartDonationsCustomFields table{
+    width:100%;
+
+
+}
+
+
+#smartDonationsCustomFields table tr{
+
+    vertical-align: top;
+}
+
+#smartDonationsCustomFields td:first-child
+{
+    width:40%;
+    text-align: right;
+}
+
+
+#smartDonationsCustomFields td:first-child + td
+{
+   width:70%;
+    text-align: left;
+}
+
+.smartDonationsCommentField{
+    width:200px;
+}
+
+.smartDonationsNumericField{
+    width:40px;
+    text-align: right;
+}
+
+
+
+
+.smartDonationsTextBoxDonationContainer
+{
+    width:100%;
+}
+
+.smartDonationsTextBoxDonationField{
+    vertical-align: middle;
+    margin-left: 5px;
+    font-family: verdana;
+}
+
+
+
+.smartdonationsThreeButtonStyle span
+{
+    position: relative;
+    vertical-align: top;
+    font-family: Verdana;
+
+}
+
+
+
+
+.smartDonationsDonationGeneratedItem
+{
+    text-align: center;
+}
+
+.smartDonationsThreeButtonsDiv1
+{
+    text-align: center;
+}
+
+.smartDonationsThreeButton{
+    cursor: pointer;
+    cursor:hand;
+    overflow:hidden;
+}
+
+.smartDonationsThreeButtonSpan{
+    cursor: pointer;
+    cursor:hand;
+}
+
+.smartDonationsThreeButtonMiddleDiv{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.smartDonationsSliderText{
+    text-align: left;
+    font-family: Verdana;
+    margin-bottom: 3px;
+    display: inline-block
+}
+
+.smartDonationsSliderDiv{
+    text-align: center
+}
+
+.smartDonationsSliderTable{
+    margin: 0 auto;
+}
+
+.smartDonationsSliderDonationText{
+    margin-left: 5px
+}
+
+.smartDonationsSliderSmile{
+    display: inline-block;
+    margin-left:8px;
+}
+
+.smartDonationsSliderDiv{
+    display: inline-block;
+    width:160px
+}
+.smartDonationsSliderTable td{
+    padding:0px;
+    vertical-align: middle;
+}
+
+
+/**********************WE PAY Classic**************/
+
+.smartDonationsClassicWePay
+{
+    text-align: center;
+}
+
+
+
+
+.smartDonationsTextBoxWePay
+{
+    text-align: center;
+    font-family: verdana;
+}
+
+
+
+
+
+
+
+
+.smartDonationsOneLineWePay, .smartDonationsTwoLineWePay, .smartDonationsThreeLineWePay
+{
+    text-align: center;
+}
+
+.smartDonationsTwoLineWePay
+{
+    border-spacing: 5px;
+}
+
+.smartDonationsOneLineWePay .smartDonationsWePayButton, .smartDonationsTwoLineWePay .smartDonationsWePayButton, .smartDonationsThreeLineWePay .smartDonationsWePayButton
+{
+    display: inline;
+    padding-top: 5px;
+    margin: 0;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+.smartDonationsThreeLineWePay input{
+    margin-bottom:5px;
+}
+
+
+
+.smartDonationsSliderWePay .smartDonationsWePayButton
+{
+    display: inline;
+    padding-top: 5px;
+    margin: 0;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+.smartDonationsSliderWePay .smartDonationsSliderDiv .ui-widget-header
+{
+    background-image:none;
+    background-color:rgb(137, 252, 72);
+}

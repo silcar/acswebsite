@@ -1,0 +1,76 @@
+/**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+ .countdown-container{
+    text-align: center;
+ }
+
+.time_circles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+}
+
+.time_circles > div > h4 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.time_circles > div > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 0.4em;
+    font-weight: bold;
+}
+
+#logo{
+    padding: 40px 0;
+    }
+.countdown-container{
+    min-height: 600px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#DateCountdownWrap{
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -150px;
+    }  
+
+.time_circles canvas{
+    width: 100%;
+    }
+
+.countdown-container .social-bar{
+    bottom:20px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    }
+
+.countdown-container .socials{
+    float:none;
+    margin: 0;
+    }
+.countdown-container .socials a:hover{
+        background-color:transparent;
+        -ms-transform: translateY(-5px); /* IE 9 */
+        -webkit-transform: translateY(-5px); /* Chrome, Safari, Opera */
+        transform: translateY(-5px);
+    }

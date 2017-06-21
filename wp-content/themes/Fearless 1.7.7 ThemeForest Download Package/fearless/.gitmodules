@@ -1,0 +1,6 @@
+[submodule "hybrid-core"]
+	path = hybrid-core
+	url = https://github.com/justintadlock/hybrid-core.git
+[submodule "includes/meta-box"]
+	path = includes/meta-box
+	url = https://github.com/rilwis/meta-box.git

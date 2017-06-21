@@ -1,0 +1,127 @@
+@import "bourbon";
+@import "neat";
+@import "flexbox";
+
+// Custom Mixins for LiveMesh framework - utilizes other libs like Bourbon
+$tablet_size: 767;
+$mobile_size: 479;
+
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  }
+
+@mixin background-clip($padding-box) {
+  -moz-background-clip: $padding-box;
+  -webkit-background-clip: $padding-box;
+  border-background-clip: $padding-box;
+  }
+@mixin center {
+  margin: 0 auto;
+  text-align: center;
+  }
+
+@mixin background-opacity($color, $opacity: 0.3) {
+  background: $color; /* The Fallback */
+  background: rgba($color, $opacity);
+  }
+
+@mixin vendorize($property, $value) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  #{$property}: $value;
+  }
+
+@mixin clear() {
+  &:before, &:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    }
+  &:after {
+    clear: both;
+    }
+  }
+
+@mixin linkTextOffscreen() {
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  font-size: 0;
+  text-align: start;
+  }
+
+@mixin hoverActiveFocus($property, $value) {
+  &:hover, &:active, &:focus {
+    #{$property}: $value;
+    }
+  }
+
+@mixin respond-to-max($point) {
+  @media only screen and (max-width: $point+px) { @content; }
+  }
+
+@mixin respond-between($point1, $point2) {
+  @media only screen and (min-width: $point1+px) and (max-width: $point2+px) { @content; }
+  }
+
+@mixin respond-to-min($point) {
+  @media only screen and (min-width: $point+px) { @content; }
+  }
+@mixin respond-to-retina() {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) { @content; }
+  }
+
+@mixin bottom-line($width: 35, $height: 2, $color: $theme_color) {
+  &:after {
+    width: $width + px;
+    height: $height + px;
+    background: $color;
+    display: block;
+    content: "";
+    @content;
+    }
+  }
+
+@mixin lsow-icon-font() {
+  font-family: 'lsow-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+@mixin lsow-transition($property: all, $time: 0.4s) {
+  @include vendorize(transition, $property $time ease-in-out 0s);
+
+  }
+
+@mixin lsow-heading-style() {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  clear: none;
+  margin-top: 0;
+  margin-bottom: 10px;
+  }
+
+@mixin lsow-body-font() {
+  font-size: 15px;
+  line-height: 24px;
+  }
+
+@mixin meta-font() {
+  font-style: italic;
+  color: #888;
+  }

@@ -1,0 +1,1397 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fearless\n"
+"POT-Creation-Date: 2014-02-24 16:58-0500\n"
+"PO-Revision-Date: 2014-02-24 16:58-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_n:1,2;_ex:1,2c;esc_attr_e;esc_attr__;"
+"esc_html__;esc_html_e;gettext:1,2;gettext_noop:1,2;__ngettext:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../attachment-image.php:27 ../bbpress.php:20 ../content-page.php:16
+#: ../content-page.php:31 ../content.php:36 ../content.php:57
+msgid "Pages:"
+msgstr ""
+
+#: ../attachment-image.php:39
+msgid "Gallery"
+msgstr ""
+
+#: ../authorbox.php:5
+msgid "About the Author"
+msgstr ""
+
+#: ../comments-loop-nav.php:4
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../comments-loop-nav.php:5
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: ../comments-loop-nav.php:6
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../comments-loop.php:3
+msgid "One Response"
+msgstr ""
+
+#: ../comments-loop.php:3
+msgid "% Responses"
+msgstr ""
+
+#: ../comments.php:22
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:23
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:24
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:25
+msgid "Post Comment"
+msgstr ""
+
+#: ../content.php:27
+msgid ""
+"Posted by [entry-author] on [entry-published] in [entry-terms taxonomy="
+"\"category\"] | [entry-views after=\" Views\"] [entry-comments-link before="
+"\" | \"]"
+msgstr ""
+
+#: ../content.php:40
+msgid ""
+"[entry-terms before=\"Posted in \" taxonomy=\"category\"] [entry-terms "
+"before=\"| Tagged \"]"
+msgstr ""
+
+#: ../content.php:51
+msgid "[entry-author] / [entry-published]"
+msgstr ""
+
+#: ../content.php:62
+msgid "Read More &raquo;"
+msgstr ""
+
+#: ../functions.php:48
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../functions.php:49
+msgid "Secondary Navigation"
+msgstr ""
+
+#: ../functions.php:50
+msgid "Footer Navigation"
+msgstr ""
+
+#: ../functions.php:368
+msgid "Default layout set in the theme options"
+msgstr ""
+
+#: ../functions.php:369
+msgid "Full width (no sidebars)"
+msgstr ""
+
+#: ../functions.php:370
+msgid "Two columns, content left"
+msgstr ""
+
+#: ../functions.php:371
+msgid "Two columns, content right"
+msgstr ""
+
+#: ../functions.php:372
+msgid "Three columns, content left"
+msgstr ""
+
+#: ../functions.php:373
+msgid "Three columns, content right"
+msgstr ""
+
+#: ../functions.php:374
+msgid "Three columns, center, primary sidebar left"
+msgstr ""
+
+#: ../functions.php:375
+msgid "Three columns, center, primary sidebar right"
+msgstr ""
+
+#: ../functions.php:405 ../menu-footer.php:2 ../menu-primary.php:10
+#: ../menu-secondary.php:2
+msgid "Menu"
+msgstr ""
+
+#: ../functions.php:425 ../includes/template-tags.php:13
+msgid "URL"
+msgstr ""
+
+#: ../functions.php:449
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../includes/customizer.php:4
+msgid "Customize"
+msgstr ""
+
+#: ../includes/fonts.php:27
+msgid "System"
+msgstr ""
+
+#: ../includes/meta-box-config.php:8
+msgid "None"
+msgstr ""
+
+#: ../includes/meta-box-config.php:22
+msgid "Single Post Options"
+msgstr ""
+
+#: ../includes/meta-box-config.php:26
+msgid "Featured Post"
+msgstr ""
+
+#: ../includes/meta-box-config.php:27
+msgid "Turn on to show this post in the featured posts slider."
+msgstr ""
+
+#: ../includes/meta-box-config.php:32
+msgid "Audio Embed Code"
+msgstr ""
+
+#: ../includes/meta-box-config.php:33
+msgid "For audio post formats, paste the SoundCloud video embed code here."
+msgstr ""
+
+#: ../includes/meta-box-config.php:38
+msgid "Video Embed Code"
+msgstr ""
+
+#: ../includes/meta-box-config.php:39
+msgid "For video post formats, paste the iframe video embed code here."
+msgstr ""
+
+#: ../includes/meta-box-config.php:44 ../includes/meta-box-config.php:65
+#: ../includes/tax-meta-config.php:32
+msgid "Custom Sidebar"
+msgstr ""
+
+#: ../includes/meta-box-config.php:45
+msgid "Create a custom sidebar for this post by adding some text to this box."
+msgstr ""
+
+#: ../includes/meta-box-config.php:50
+msgid "Featured Slider Category Label Override"
+msgstr ""
+
+#: ../includes/meta-box-config.php:51
+msgid ""
+"Choose which category to use as the category label in the featured slider, "
+"if a post has more than one category."
+msgstr ""
+
+#: ../includes/meta-box-config.php:61
+msgid "Page Options"
+msgstr ""
+
+#: ../includes/meta-box-config.php:66
+msgid "Create a custom sidebar for this page by adding some text to this box."
+msgstr ""
+
+#: ../includes/meta-box-config.php:71 ../includes/tax-meta-config.php:28
+msgid "Accent Color"
+msgstr ""
+
+#: ../includes/meta-box-config.php:72
+msgid ""
+"If you want to override the global accent color on this page, choose a color "
+"here."
+msgstr ""
+
+#: ../includes/reviews.php:7
+#, php-format
+msgid "Criteria %d Name"
+msgstr ""
+
+#: ../includes/reviews.php:13
+msgid "Value"
+msgstr ""
+
+#: ../includes/reviews.php:22
+msgid "Review"
+msgstr ""
+
+#: ../includes/reviews.php:27
+msgid "Review Box Enabled"
+msgstr ""
+
+#: ../includes/reviews.php:35
+msgid "Review Type"
+msgstr ""
+
+#: ../includes/reviews.php:39
+msgid "Points"
+msgstr ""
+
+#: ../includes/reviews.php:40
+msgid "Percent"
+msgstr ""
+
+#: ../includes/reviews.php:41
+msgid "Stars"
+msgstr ""
+
+#: ../includes/reviews.php:47
+msgid "Review Box Heading"
+msgstr ""
+
+#: ../includes/reviews.php:55
+msgid "Review Final Score"
+msgstr ""
+
+#: ../includes/reviews.php:61
+msgid "Review Short Summary"
+msgstr ""
+
+#: ../includes/reviews.php:66
+msgid "Review Long Summary"
+msgstr ""
+
+#: ../includes/tax-meta-config.php:6
+msgid "Fearless Category Options"
+msgstr ""
+
+#: ../includes/tax-meta-config.php:16
+msgid "Use the default layout set in the theme options"
+msgstr ""
+
+#: ../includes/tax-meta-config.php:19
+msgid "Layout Style"
+msgstr ""
+
+#: ../includes/tax-meta-config.php:22 ../includes/theme-options.php:20
+#: ../includes/theme-options.php:80 ../includes/theme-options.php:96
+msgid "Disabled"
+msgstr ""
+
+#: ../includes/tax-meta-config.php:23 ../includes/theme-options.php:21
+msgid "Featured posts"
+msgstr ""
+
+#: ../includes/tax-meta-config.php:24 ../includes/theme-options.php:22
+msgid "Recent posts"
+msgstr ""
+
+#: ../includes/tax-meta-config.php:26
+msgid "Featured Slider Type"
+msgstr ""
+
+#: ../includes/tax-meta-config.php:30
+msgid "Fullscreen Background Image"
+msgstr ""
+
+#: ../includes/template-tags.php:46
+msgid "Pingback:"
+msgstr ""
+
+#: ../includes/template-tags.php:46 ../includes/template-tags.php:67
+msgid "Edit"
+msgstr ""
+
+#: ../includes/template-tags.php:56
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../includes/template-tags.php:59
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/template-tags.php:65
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../includes/template-tags.php:98
+msgid "Posted on"
+msgstr ""
+
+#: ../includes/template-tags.php:100
+msgid "by"
+msgstr ""
+
+#: ../includes/template-tags.php:157
+msgid ""
+"Posted by [entry-author] on [entry-published] in [entry-terms taxonomy="
+"\"category\"]"
+msgstr ""
+
+#: ../includes/template-tags.php:259
+msgid "One column, full-width images"
+msgstr ""
+
+#: ../includes/template-tags.php:260
+msgid "One column, half-width images"
+msgstr ""
+
+#: ../includes/template-tags.php:261
+msgid "One Column, small square images"
+msgstr ""
+
+#: ../includes/template-tags.php:262
+msgid "One Column, thumbnail images"
+msgstr ""
+
+#: ../includes/template-tags.php:263
+msgid "Two Columns"
+msgstr ""
+
+#: ../includes/template-tags.php:317 ../includes/theme-options.php:232
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/template-tags.php:318
+msgid "Flickr"
+msgstr ""
+
+#: ../includes/template-tags.php:319
+msgid "Google Plus"
+msgstr ""
+
+#: ../includes/template-tags.php:320
+msgid "Instagram"
+msgstr ""
+
+#: ../includes/template-tags.php:321
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/template-tags.php:322
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/template-tags.php:323
+msgid "RSS Feed"
+msgstr ""
+
+#: ../includes/template-tags.php:324
+msgid "Tumblr"
+msgstr ""
+
+#: ../includes/template-tags.php:325
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/template-tags.php:326
+msgid "YouTube"
+msgstr ""
+
+#: ../includes/template-tags.php:361
+msgid "Header image"
+msgstr ""
+
+#: ../includes/template-tags.php:398
+msgid "Logo"
+msgstr ""
+
+#: ../includes/template-tags.php:444
+#, php-format
+msgid "1 view"
+msgid_plural "%s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/template-tags.php:450
+#, php-format
+msgid "%1$s / [entry-published before=\"Posted \"]"
+msgstr ""
+
+#: ../includes/template-tags.php:452
+msgid "[entry-published] / [entry-author]"
+msgstr ""
+
+#: ../includes/template-tags.php:511 ../related-posts.php:33
+#: ../related-posts.php:67
+msgid "Missing image"
+msgstr ""
+
+#: ../includes/theme-options.php:8
+msgid "Basic"
+msgstr ""
+
+#: ../includes/theme-options.php:14
+msgid "Homepage Slider Type"
+msgstr ""
+
+#: ../includes/theme-options.php:15
+msgid "Choose the type of posts the homepage featured slider displays."
+msgstr ""
+
+#: ../includes/theme-options.php:28
+msgid "Logo Image"
+msgstr ""
+
+#: ../includes/theme-options.php:29
+msgid "Upload an image to be used as the site logo."
+msgstr ""
+
+#: ../includes/theme-options.php:36
+msgid "Favicon Uploader"
+msgstr ""
+
+#: ../includes/theme-options.php:37
+msgid "Use a 16x16px .ICO file for complete browser support."
+msgstr ""
+
+#: ../includes/theme-options.php:43
+msgid "Header Background Image"
+msgstr ""
+
+#: ../includes/theme-options.php:44
+msgid "Upload an image to be used as the header background."
+msgstr ""
+
+#: ../includes/theme-options.php:51
+msgid "Header Background Image (Tablet)"
+msgstr ""
+
+#: ../includes/theme-options.php:52
+msgid "Upload an image to be used as the header background on tablet devices."
+msgstr ""
+
+#: ../includes/theme-options.php:59
+msgid "Header Background Image (Mobile)"
+msgstr ""
+
+#: ../includes/theme-options.php:60
+msgid "Upload an image to be used as the header background on mobile devices."
+msgstr ""
+
+#: ../includes/theme-options.php:67
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: ../includes/theme-options.php:68
+msgid "Enter any text you want to be output to the footer."
+msgstr ""
+
+#: ../includes/theme-options.php:75
+msgid "Top Bar Left"
+msgstr ""
+
+#: ../includes/theme-options.php:76
+msgid "Choose what to display on the left side of the top bar."
+msgstr ""
+
+#: ../includes/theme-options.php:81 ../includes/theme-options.php:97
+msgid "Breadcrumb Trail"
+msgstr ""
+
+#: ../includes/theme-options.php:82 ../includes/theme-options.php:98
+msgid "Current date"
+msgstr ""
+
+#: ../includes/theme-options.php:83 ../includes/theme-options.php:99
+msgid "Mini Social Icons"
+msgstr ""
+
+#: ../includes/theme-options.php:84 ../includes/theme-options.php:100
+msgid "Secondary Navigation Menu"
+msgstr ""
+
+#: ../includes/theme-options.php:91
+msgid "Top Bar Right"
+msgstr ""
+
+#: ../includes/theme-options.php:92
+msgid "Choose what to display on the right side of the top bar."
+msgstr ""
+
+#: ../includes/theme-options.php:109
+msgid "Colors"
+msgstr ""
+
+#: ../includes/theme-options.php:115
+msgid "Global Accent Color"
+msgstr ""
+
+#: ../includes/theme-options.php:122
+msgid "Menubar Color"
+msgstr ""
+
+#: ../includes/theme-options.php:129
+msgid "Link Color"
+msgstr ""
+
+#: ../includes/theme-options.php:136
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../includes/theme-options.php:143
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: ../includes/theme-options.php:150
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../includes/theme-options.php:159
+msgid "Defaults"
+msgstr ""
+
+#: ../includes/theme-options.php:167
+msgid "Default Theme Layout"
+msgstr ""
+
+#: ../includes/theme-options.php:168
+msgid "Choose the default site-wide theme layout"
+msgstr ""
+
+#: ../includes/theme-options.php:176
+msgid "Default Blogroll Layout Style"
+msgstr ""
+
+#: ../includes/theme-options.php:177
+msgid "Choose which layout to use as the default."
+msgstr ""
+
+#: ../includes/theme-options.php:185
+msgid "Default Fullscreen Background Image"
+msgstr ""
+
+#: ../includes/theme-options.php:186
+msgid ""
+"Upload a background image to be used as the default fullscreen background."
+msgstr ""
+
+#: ../includes/theme-options.php:195
+msgid "Post"
+msgstr ""
+
+#: ../includes/theme-options.php:201
+msgid "Enable Author Box?"
+msgstr ""
+
+#: ../includes/theme-options.php:202
+msgid "Turn on this checkbox to enable the author box on single post pages."
+msgstr ""
+
+#: ../includes/theme-options.php:209
+msgid "Enable Featured Image on Single Post Pages"
+msgstr ""
+
+#: ../includes/theme-options.php:210
+msgid ""
+"Turn on this checkbox to show the post's featured image on the single post "
+"page."
+msgstr ""
+
+#: ../includes/theme-options.php:217
+msgid "Enable Related Posts?"
+msgstr ""
+
+#: ../includes/theme-options.php:218
+msgid ""
+"Turn on this checkbox to enable the related posts function on on single post "
+"pages."
+msgstr ""
+
+#: ../includes/theme-options.php:227
+msgid "Comments Type"
+msgstr ""
+
+#: ../includes/theme-options.php:228
+msgid "Disqus comments plugin active."
+msgstr ""
+
+#: ../includes/theme-options.php:228
+msgid "Choose the type of comments to use on your posts and pages."
+msgstr ""
+
+#: ../includes/theme-options.php:233
+msgid "WordPress"
+msgstr ""
+
+#: ../includes/theme-options.php:242
+msgid "Retina"
+msgstr ""
+
+#: ../includes/theme-options.php:248
+msgid "Retina Header Background Image"
+msgstr ""
+
+#: ../includes/theme-options.php:249
+msgid ""
+"Upload an image to be used as the header background on Retina displays. "
+"Image should be exactly twice the dimensions of the normal image."
+msgstr ""
+
+#: ../includes/theme-options.php:256
+msgid "Retina Header Background Image (Tablet)"
+msgstr ""
+
+#: ../includes/theme-options.php:257
+msgid ""
+"Upload an image to be used as the header background on tablet devices with "
+"Retina displays. Image should be exactly twice the dimensions of the normal "
+"image."
+msgstr ""
+
+#: ../includes/theme-options.php:264
+msgid "Retina Header Background Image (Mobile)"
+msgstr ""
+
+#: ../includes/theme-options.php:265
+msgid ""
+"Upload an image to be used as the header background on mobile devices with "
+"Retina displays. Image should be exactly twice the dimensions of the normal "
+"image."
+msgstr ""
+
+#: ../includes/theme-options.php:272
+msgid "Retina Logo Image"
+msgstr ""
+
+#: ../includes/theme-options.php:273
+msgid ""
+"Upload an image to be used as the site logo on retina displays. Image should "
+"be exactly twice the dimensions of the normal image."
+msgstr ""
+
+#: ../includes/theme-options.php:280
+msgid "Retina Branded Footer Logo Image"
+msgstr ""
+
+#: ../includes/theme-options.php:281
+msgid ""
+"Upload an image to be used as the logo in the branded footer widget on "
+"Retina displays."
+msgstr ""
+
+#: ../includes/theme-options.php:290
+msgid "Social Profiles"
+msgstr ""
+
+#: ../includes/theme-options.php:303
+#, php-format
+msgid "%1$s URL"
+msgstr ""
+
+#: ../includes/theme-options.php:305
+msgid "Begin with <code>http://</code>"
+msgstr ""
+
+#: ../includes/theme-options.php:314
+msgid "Ticker"
+msgstr ""
+
+#: ../includes/theme-options.php:320
+msgid "Enable Ticker"
+msgstr ""
+
+#: ../includes/theme-options.php:321
+msgid "Turn this on to enable the news ticker on your site."
+msgstr ""
+
+#: ../includes/theme-options.php:328
+msgid "Enable Ticker Sitewide"
+msgstr ""
+
+#: ../includes/theme-options.php:329
+msgid ""
+"Turn this on to enable the news ticker on all pages of your site, not just "
+"the front page."
+msgstr ""
+
+#: ../includes/theme-options.php:336
+msgid "Ticker Title"
+msgstr ""
+
+#: ../includes/theme-options.php:337
+msgid "Enter the title for the news ticker."
+msgstr ""
+
+#: ../includes/theme-options.php:340
+msgid "Breaking News"
+msgstr ""
+
+#: ../includes/theme-options.php:344
+msgid "Ticker Posts Source"
+msgstr ""
+
+#: ../includes/theme-options.php:345
+msgid "Choose what posts are displayed in the news ticker."
+msgstr ""
+
+#: ../includes/theme-options.php:349
+msgid "Latest Posts"
+msgstr ""
+
+#: ../includes/theme-options.php:350 ../includes/widgets/tabs.php:126
+msgid "Featured Posts"
+msgstr ""
+
+#: ../includes/theme-options.php:360
+msgid "Number of items to show"
+msgstr ""
+
+#: ../includes/theme-options.php:361
+msgid "Choose how many items appear in the news ticker."
+msgstr ""
+
+#: ../includes/theme-options.php:371
+msgid "Typography"
+msgstr ""
+
+#: ../includes/theme-options.php:377
+msgid "Headings Font"
+msgstr ""
+
+#: ../includes/theme-options.php:378
+msgid "Choose the font family for the site headings."
+msgstr ""
+
+#: ../includes/theme-options.php:386
+msgid "Headings Style"
+msgstr ""
+
+#: ../includes/theme-options.php:387
+msgid "Choose the font style for the site headings"
+msgstr ""
+
+#: ../includes/theme-options.php:391
+msgid "Normal"
+msgstr ""
+
+#: ../includes/theme-options.php:392
+msgid "Bold"
+msgstr ""
+
+#: ../includes/theme-options.php:399
+msgid "Body Font"
+msgstr ""
+
+#: ../includes/theme-options.php:400
+msgid "Choose the body font family."
+msgstr ""
+
+#: ../includes/theme-options.php:409
+#, php-format
+msgid "%dpx"
+msgstr ""
+
+#: ../includes/theme-options.php:412
+msgid "Base font size"
+msgstr ""
+
+#: ../includes/theme-options.php:413
+msgid "Choose the typography base font size."
+msgstr ""
+
+#: ../includes/theme-options.php:424
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../includes/theme-options.php:430
+msgid "Enable Responsiveness"
+msgstr ""
+
+#: ../includes/theme-options.php:431
+msgid "Turn this checkbox off to disable the responsiveness of the theme."
+msgstr ""
+
+#: ../includes/theme-options.php:438
+msgid "Sharebar Enabled"
+msgstr ""
+
+#: ../includes/theme-options.php:439
+msgid ""
+"Turn this on to enable the sharebar on the home, blog archive, category, and "
+"post pages."
+msgstr ""
+
+#: ../includes/theme-options.php:446
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/theme-options.php:447
+msgid "Enter any custom CSS code here that you want to be output on your site."
+msgstr ""
+
+#: ../includes/theme-options.php:454
+msgid "Google Analytics Code"
+msgstr ""
+
+#: ../includes/theme-options.php:455
+msgid ""
+"Enter your Google Analytics code here, including the <code>&lt;script&gt;</"
+"code> tags."
+msgstr ""
+
+#: ../includes/theme-options.php:462
+msgid "Branded Footer Widget Logo"
+msgstr ""
+
+#: ../includes/theme-options.php:463
+msgid "Upload an image to be used as the logo in the branded footer widget."
+msgstr ""
+
+#: ../includes/theme-options.php:470
+msgid "Branded Footer Widget Text"
+msgstr ""
+
+#: ../includes/theme-options.php:471
+msgid "Enter the text to be displayed in the branded footer widget."
+msgstr ""
+
+#: ../includes/theme-options.php:478
+msgid "Menubar Search Box Enabled"
+msgstr ""
+
+#: ../includes/theme-options.php:479
+msgid "Turn this on to enable the search box in the menubar."
+msgstr ""
+
+#: ../includes/theme-options.php:488
+msgid "Advanced"
+msgstr ""
+
+#: ../includes/theme-options.php:494
+msgid "Enable Alternate Featured Image Sources"
+msgstr ""
+
+#: ../includes/theme-options.php:495
+msgid ""
+"Turn this on to pull featured images from a custom field, an attached image, "
+"or from the post content when a normal featured image is not available."
+msgstr ""
+
+#: ../includes/theme-options.php:502
+msgid "Custom Field Name"
+msgstr ""
+
+#: ../includes/theme-options.php:503
+msgid ""
+"If your featured image URLs are stored in a custom field, enter the name of "
+"the custom field here. Leave blank to disable."
+msgstr ""
+
+#: ../includes/theme-options.php:511
+msgid "Pull Featured Image From Attachment"
+msgstr ""
+
+#: ../includes/theme-options.php:512
+msgid ""
+"Turn this on to use the first image attched to the post as the featured "
+"image."
+msgstr ""
+
+#: ../includes/theme-options.php:519
+msgid "Pull Featured Image From Post Content"
+msgstr ""
+
+#: ../includes/theme-options.php:520
+msgid ""
+"Turn this on to use the first image found in the post content as the "
+"featured image."
+msgstr ""
+
+#: ../includes/widget-areas.php:13
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../includes/widget-areas.php:15
+msgid "The default widget area."
+msgstr ""
+
+#: ../includes/widget-areas.php:23
+msgid "Home Sidebar"
+msgstr ""
+
+#: ../includes/widget-areas.php:25
+msgid ""
+"The widget area that will be displayed on your front page. Leave empty to "
+"use the default sidebar on the front page."
+msgstr ""
+
+#: ../includes/widget-areas.php:32
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../includes/widget-areas.php:34
+msgid ""
+"The widget area that will be displayed on pages. Leave empty to use the "
+"default sidebar on pages."
+msgstr ""
+
+#: ../includes/widget-areas.php:41
+msgid "Post Sidebar"
+msgstr ""
+
+#: ../includes/widget-areas.php:43
+msgid ""
+"The widget area that will be displayed on posts. Leave empty to use the "
+"default sidebar on posts."
+msgstr ""
+
+#: ../includes/widget-areas.php:50
+msgid "Category Sidebar"
+msgstr ""
+
+#: ../includes/widget-areas.php:52
+msgid ""
+"The widget area that will be displayed on category archives. Leave empty to "
+"use the default sidebar on category archives."
+msgstr ""
+
+#: ../includes/widget-areas.php:60
+msgid "Widgetized Homepage"
+msgstr ""
+
+#: ../includes/widget-areas.php:62
+msgid "To use the widget-based homepage layout, add widgets here."
+msgstr ""
+
+#: ../includes/widget-areas.php:70
+msgid "Header Widget Area"
+msgstr ""
+
+#: ../includes/widget-areas.php:79
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: ../includes/widget-areas.php:88
+msgid "Footer Column 1"
+msgstr ""
+
+#: ../includes/widget-areas.php:90
+msgid "The first column in the footer widget area."
+msgstr ""
+
+#: ../includes/widget-areas.php:97
+msgid "Footer Column 2"
+msgstr ""
+
+#: ../includes/widget-areas.php:99
+msgid "The second column in the footer widget area."
+msgstr ""
+
+#: ../includes/widget-areas.php:106
+msgid "Footer Column 3"
+msgstr ""
+
+#: ../includes/widget-areas.php:108
+msgid "The third column in the footer widget area."
+msgstr ""
+
+#: ../includes/widget-areas.php:115
+msgid "Footer Column 4"
+msgstr ""
+
+#: ../includes/widget-areas.php:117
+msgid "The fourth column in the footer widget area."
+msgstr ""
+
+#: ../includes/widgets/branded-footer.php:6
+msgid "Fearless Branded Footer Widget"
+msgstr ""
+
+#: ../includes/widgets/branded-footer.php:24
+msgid "Footer logo"
+msgstr ""
+
+#: ../includes/widgets/branded-footer.php:46
+#: ../includes/widgets/social-icons.php:35
+msgid "Open links in a new window"
+msgstr ""
+
+#: ../includes/widgets/branded-footer.php:48
+msgid "Configure the widget text and logo settings in the theme options panel."
+msgstr ""
+
+#: ../includes/widgets/facebook-likebox.php:12
+msgid "Fearless Facebook Fans"
+msgstr ""
+
+#: ../includes/widgets/facebook-likebox.php:38
+#: ../includes/widgets/featured-posts.php:58
+#: ../includes/widgets/featured-video.php:41
+#: ../includes/widgets/layout-module-b.php:86
+#: ../includes/widgets/layout-module-blogroll.php:39
+#: ../includes/widgets/layout-module-d.php:84
+#: ../includes/widgets/layout-module-e.php:86
+#: ../includes/widgets/popular-posts.php:59
+#: ../includes/widgets/recent-comments.php:66
+#: ../includes/widgets/recent-galleries.php:65
+#: ../includes/widgets/recent-posts.php:56
+#: ../includes/widgets/responsive-image-ad.php:56
+#: ../includes/widgets/top-rated-posts.php:59
+msgid "Title"
+msgstr ""
+
+#: ../includes/widgets/facebook-likebox.php:41
+msgid "Set your Facebook page URL in the theme options page."
+msgstr ""
+
+#: ../includes/widgets/featured-posts.php:26
+msgid "Fearless Featured Posts"
+msgstr ""
+
+#: ../includes/widgets/featured-posts.php:62
+#: ../includes/widgets/popular-posts.php:63
+#: ../includes/widgets/recent-comments.php:70
+#: ../includes/widgets/recent-posts.php:60 ../includes/widgets/tabs.php:117
+#: ../includes/widgets/top-rated-posts.php:63
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../includes/widgets/featured-video.php:6
+msgid "Fearless Featured Video Widget"
+msgstr ""
+
+#: ../includes/widgets/featured-video.php:45
+msgid "Embed code:"
+msgstr ""
+
+#: ../includes/widgets/layout-module-a.php:6
+msgid "Fearless Layout Module A"
+msgstr ""
+
+#: ../includes/widgets/layout-module-a.php:147
+#: ../includes/widgets/layout-module-c.php:127
+msgid "Title 1"
+msgstr ""
+
+#: ../includes/widgets/layout-module-a.php:151
+#: ../includes/widgets/layout-module-c.php:131
+msgid "Category 1"
+msgstr ""
+
+#: ../includes/widgets/layout-module-a.php:155
+#: ../includes/widgets/layout-module-a.php:170
+#: ../includes/widgets/layout-module-b.php:94
+#: ../includes/widgets/layout-module-c.php:135
+#: ../includes/widgets/layout-module-c.php:150
+#: ../includes/widgets/layout-module-d.php:92
+#: ../includes/widgets/layout-module-e.php:94
+msgid "All Categories"
+msgstr ""
+
+#: ../includes/widgets/layout-module-a.php:162
+#: ../includes/widgets/layout-module-c.php:142
+msgid "Title 2"
+msgstr ""
+
+#: ../includes/widgets/layout-module-a.php:166
+#: ../includes/widgets/layout-module-c.php:146
+msgid "Category 2"
+msgstr ""
+
+#: ../includes/widgets/layout-module-b.php:6
+msgid "Fearless Layout Module B"
+msgstr ""
+
+#: ../includes/widgets/layout-module-b.php:90
+#: ../includes/widgets/layout-module-d.php:88
+#: ../includes/widgets/layout-module-e.php:90
+msgid "Category"
+msgstr ""
+
+#: ../includes/widgets/layout-module-blogroll.php:6
+msgid "Fearless Layout Module Blogroll"
+msgstr ""
+
+#: ../includes/widgets/layout-module-c.php:6
+msgid "Fearless Layout Module C"
+msgstr ""
+
+#: ../includes/widgets/layout-module-d.php:6
+msgid "Fearless Layout Module D"
+msgstr ""
+
+#: ../includes/widgets/layout-module-d.php:99
+msgid "Number of Posts"
+msgstr ""
+
+#: ../includes/widgets/layout-module-e.php:6
+msgid "Fearless Layout Module E"
+msgstr ""
+
+#: ../includes/widgets/popular-posts.php:27
+msgid "Fearless Popular Posts"
+msgstr ""
+
+#: ../includes/widgets/quick_flickr_widget.php:162
+msgid "Title:"
+msgstr ""
+
+#: ../includes/widgets/quick_flickr_widget.php:166
+msgid "RSS URL:"
+msgstr ""
+
+#: ../includes/widgets/quick_flickr_widget.php:170
+msgid "Tags:"
+msgstr ""
+
+#: ../includes/widgets/quick_flickr_widget.php:174
+msgid "Count:"
+msgstr ""
+
+#: ../includes/widgets/recent-comments.php:21
+msgid " on "
+msgstr ""
+
+#: ../includes/widgets/recent-comments.php:34
+msgid "Fearless Recent Comments with Avatar"
+msgstr ""
+
+#: ../includes/widgets/recent-galleries.php:33
+msgid "Fearless Recent Galleries"
+msgstr ""
+
+#: ../includes/widgets/recent-galleries.php:69
+msgid "Number of galleries to show:"
+msgstr ""
+
+#: ../includes/widgets/recent-posts.php:24
+msgid "Fearless Recent Posts with Thumbnails"
+msgstr ""
+
+#: ../includes/widgets/responsive-image-ad.php:6
+msgid "Fearless Responsive Image Ad"
+msgstr ""
+
+#: ../includes/widgets/responsive-image-ad.php:60
+msgid "Image URL"
+msgstr ""
+
+#: ../includes/widgets/responsive-image-ad.php:64
+msgid "Link URL"
+msgstr ""
+
+#: ../includes/widgets/responsive-image-ad.php:69
+msgid "Open links in a new window or tab"
+msgstr ""
+
+#: ../includes/widgets/social-icons.php:12
+msgid "Fearless Social Icons"
+msgstr ""
+
+#: ../includes/widgets/social-icons.php:37
+msgid "Set your social networks in the theme options page."
+msgstr ""
+
+#: ../includes/widgets/tabs.php:6
+msgid "Fearless Tabbed Widget"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:51
+msgid "Popular"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:53
+msgid "Latest"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:55
+msgid "Top Rated"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:75
+msgid "1st Tab Title"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:79 ../includes/widgets/tabs.php:93
+#: ../includes/widgets/tabs.php:107
+msgid "Widget:"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:89
+msgid "2nd Tab Title"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:103
+msgid "3rd Tab Title"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:125
+msgid "Facebook Fans"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:127
+msgid "Popular Posts"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:128
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:129
+msgid "Recent Galleries"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:130
+msgid "Recent Comments"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:131
+msgid "Social Icons"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:132
+msgid "Tag Cloud"
+msgstr ""
+
+#: ../includes/widgets/tabs.php:133
+msgid "Top Rated Posts"
+msgstr ""
+
+#: ../includes/widgets/top-rated-posts.php:27
+msgid "Fearless Top Rated Posts"
+msgstr ""
+
+#: ../loop-error.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#: ../loop-error.php:11
+msgid ""
+"Sorry, but the page you requested does not exist. Try searching the site to "
+"find what you are looking for:"
+msgstr ""
+
+#: ../loop-error.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords:"
+msgstr ""
+
+#: ../loop-error.php:15
+msgid ""
+"Sorry, but no posts matched your request. Try searching the site to find "
+"what you are looking for:"
+msgstr ""
+
+#: ../loop-meta.php:46
+#, php-format
+msgid "Author Archives: %1$s"
+msgstr ""
+
+#: ../loop-meta.php:54
+#, php-format
+msgid "Search results for &ldquo;%1$s&rdquo;:"
+msgstr ""
+
+#: ../loop-meta.php:70
+msgid "F d, Y"
+msgstr ""
+
+#: ../loop-meta.php:72
+msgid "F Y"
+msgstr ""
+
+#: ../loop-meta.php:74
+msgid "Y"
+msgstr ""
+
+#: ../loop-meta.php:80
+#, php-format
+msgid "Archives for %s."
+msgstr ""
+
+#: ../loop-meta.php:85
+msgid "Archives"
+msgstr ""
+
+#: ../loop-nav.php:4
+msgid "<span class=\"meta-nav\">&larr;</span> Return to entry"
+msgstr ""
+
+#: ../loop-nav.php:7 ../loop-nav.php:9
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../loop-nav.php:7 ../loop-nav.php:9
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../menu-primary.php:11 ../menu-secondary.php:3
+msgid "Skip to content"
+msgstr ""
+
+#: ../menu-primary.php:24 ../searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: ../menu-primary.php:25
+msgctxt "placeholder"
+msgid "Search&hellip;"
+msgstr ""
+
+#: ../menu-primary.php:26
+msgctxt "submit button"
+msgid "Go"
+msgstr ""
+
+#: ../related-posts.php:36 ../related-posts.php:70
+#, php-format
+msgid "%1$s<span class=\"arrow\">&rarr;</span>"
+msgstr ""
+
+#: ../related-posts.php:80
+msgid "Related Posts"
+msgstr ""
+
+#: ../review-box.php:50
+msgid "Summary:"
+msgstr ""
+
+#: ../searchform.php:3
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: ../searchform.php:4
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../template-sitemap.php:18
+msgid "Pages"
+msgstr ""
+
+#: ../template-sitemap.php:25
+msgid "Categories"
+msgstr ""
+
+#: ../template-sitemap.php:32
+msgid "Tags"
+msgstr ""
+
+#: ../template-sitemap.php:39
+msgid "Authors"
+msgstr ""
+
+#: ../template-top-reviews.php:57
+msgid "Posted by [entry-author] on [entry-published]"
+msgstr ""

@@ -1,0 +1,114 @@
+#rednaoformbuilder body {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    position: relative
+}
+
+
+
+@media (max-width:979px) {
+    #rednaoformbuilder body {
+        padding-top: 0
+    }
+
+
+}
+
+#rednaoformbuilder #components {
+    min-height: 500px
+}
+
+#rednaoformbuilder #target form {
+    border: 1px solid #ccc;
+    min-height: 200px;
+    padding: 5px;
+    padding-bottom: 30px
+}
+
+#rednaoformbuilder .component {
+    cursor: pointer
+}
+
+#rednaoformbuilder input {
+    cursor: pointer
+}
+
+#rednaoformbuilder textarea {
+    resize: vertical
+}
+
+#rednaoformbuilder .popover .rednao-control-group {
+    cursor: default
+}
+
+#rednaoformbuilder .popover input {
+    cursor: text
+}
+
+#rednaoformbuilder .temp {
+
+    background: transparent;
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+    overflow-x: hidden;
+    left: 0
+}
+
+#rednaoformbuilder  #tempForm {
+    padding: 8px 4px;
+    border: 1px dotted #ccc;
+    position: absolute;    background: white;
+    box-shadow: 0 0 30px #999;
+    -webkit-transition:
+    -webkit-transform .1s ease-out;
+    overflow: hidden;
+    width:570px;
+    z-index: 99999;
+}
+
+#rednaoformbuilder #render {
+    min-height: 500px;
+    font-family: monospace
+}
+
+#rednaoformbuilder form .popover .controls {
+    margin-left: 0
+}
+
+#rednaoformbuilder form .popover .control-label {
+    text-align: left
+}
+
+.rednaopropertiesform {
+    width: 224px
+}
+
+#rednaoformbuilder .popover-content form .btn {
+    margin-right: 10px
+}
+
+#rednaoformbuilder .target {
+
+
+
+    margin-top: 3px;
+    background: #f0f0f0;
+    width: 100%;
+    border: 1px dashed #ccc
+}
+
+#rednaoformbuilder #target, #rednaoformbuilder #input, #rednaoformbuilder #radioscheckboxes, #rednaoformbuilder #select, #rednaoformbuilder #buttons {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#rednaoformbuilder #target form {
+
+    overflow: hidden
+}
+

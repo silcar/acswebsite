@@ -1,0 +1,259 @@
+@import "../../../../assets/css/lsow-lib";
+
+.lsow-portfolio-wrap {
+  .lsow-portfolio-header {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    clear: both;
+    }
+  .lsow-heading {
+    @include lsow-heading-style();
+    text-align: left;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 30px;
+    .lsow-dark-bg & {
+      color: #e5e5e5;
+      }
+    }
+  .lsow-taxonomy-filter {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+    .lsow-dark-bg & {
+      border-color: #666;
+      }
+    @include respond-to-max(800) {
+      display: block;
+      float: none;
+      margin-bottom: 30px;
+      }
+    .lsow-filter-item {
+      display: inline-block;
+      margin: 0 12px 0 0;
+      padding: 0;
+      font-style: italic;
+      @include respond-to-max(479) {
+        margin-right: 8px;
+        }
+      a {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 0 15px 8px;
+        @include lsow-transition();
+        display: block;
+        @include respond-to-max(479) {
+          padding: 0 10px 8px;
+          }
+        }
+      &.lsow-active {
+        border-bottom: 2px solid #888;
+        .lsow-dark-bg & {
+          border-color: #aaa;
+          }
+        }
+      &:last-child {
+        margin-right: 0;
+        }
+      }
+    }
+  .lsow-portfolio {
+    .lsow-portfolio-item {
+      margin-bottom: 30px;
+      @include respond-to-max(1024) {
+        margin-bottom: 20px;
+        }
+      &.lsow-zero-margin {
+        margin: 0;
+        }
+      .hentry {
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: none;
+        box-shadow: none;
+        }
+      .lsow-project-image {
+        position: relative;
+        overflow: hidden;
+        img {
+          display: block;
+          @include lsow-transition();
+          &:hover {
+            @include vendorize(filter, brightness(80%));
+            }
+          }
+
+        .lsow-image-overlay {
+          position: absolute;
+          left: 0;
+          top: 0;
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+          background: #000;
+          filter: alpha(opacity=0);
+          -moz-opacity: 0;
+          opacity: 0;
+          @include lsow-transition(opacity);
+          }
+        .lsow-image-info {
+          display: block;
+          z-index: 120;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          opacity: 0;
+          filter: alpha(opacity=0);
+          @include lsow-transition(opacity);
+          .lsow-entry-info {
+            text-align: center;
+            display: block;
+            position: absolute;
+            height: 82px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 100%;
+            }
+          h3 {
+            padding: 10px;
+            margin: 0;
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #fff;
+            @include respond-to-max(1024) {
+              font-size: 18px;
+              line-height: 26px;
+              }
+            a {
+              display: inline;
+              color: #fff;
+              @include lsow-transition(all, 0.3s);
+              border-bottom: 1px solid transparent;
+              &:hover {
+                border-bottom: 1px solid #ccc;
+                }
+              }
+            }
+          .lsow-terms {
+            display: block;
+            color: #f9f9f9;
+            a {
+              color: #ddd;
+              position: relative;
+              display: inline;
+              zoom: 1;
+              font-size: 14px;
+              line-height: 26px;
+              font-style: italic;
+              @include lsow-transition(color, 0.3s);
+              &:hover {
+                color: #fff;
+                }
+              }
+            }
+          }
+        &:hover {
+          background: rgba(0, 0, 0, 0.3);
+
+          .lsow-image-info {
+            opacity: 1;
+            }
+          .lsow-image-overlay {
+            opacity: 0.5;
+            }
+
+          }
+        }
+      .lsow-entry-text-wrap {
+        text-align: center;
+        max-width: 650px;
+        margin: 20px auto 0;
+        }
+      .entry-title {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: normal;
+        margin-bottom: 10px;
+        &:after, &:before {
+          display: none;
+          }
+        a {
+          @include lsow-transition();
+          color: #333;
+          &:hover {
+            color: #888;
+            }
+          }
+        .lsow-dark-bg & {
+          a {
+            color: #e0e0e0;
+            &:hover {
+              color: #fff;
+              }
+            }
+          }
+        }
+      .lsow-entry-meta {
+        span {
+          display: inline-block;
+          padding: 0;
+          margin: 0;
+          font-style: italic;
+          color: #999;
+          &:after {
+            content: '//';
+            padding-left: 6px;
+            padding-right: 6px;
+            }
+          &:first-child {
+            border: none;
+            padding-left: 0;
+            }
+          &:last-child:after {
+            display: none;
+            }
+          a {
+            @include transition(all 0.3s ease-in-out 0s);
+            font-style: normal;
+            }
+          .lsow-dark-bg & {
+            color: #707070;
+            }
+          }
+        }
+      .entry-summary {
+        margin: 15px auto 0;
+        padding: 0;
+        &:before {
+          width: 35px;
+          height: 1px;
+          background: #aaa;
+          display: block;
+          content: "";
+          text-align: center;
+          margin: 0 auto 15px;
+          }
+
+        .lsow-dark-bg & {
+          color: #999;
+          &:before {
+            background: #505050;
+            }
+          }
+        }
+      }
+    }
+  }

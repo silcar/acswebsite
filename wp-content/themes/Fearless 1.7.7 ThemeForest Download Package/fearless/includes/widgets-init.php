@@ -1,0 +1,20 @@
+<?php
+require_once( FEARLESS_INCLUDES . '/widgets/branded-footer.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/facebook-likebox.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/featured-posts.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/featured-video.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/layout-module-a.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/layout-module-b.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/layout-module-blogroll.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/layout-module-c.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/layout-module-d.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/layout-module-e.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/popular-posts.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/quick_flickr_widget.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/recent-comments.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/recent-galleries.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/recent-posts.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/responsive-image-ad.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/social-icons.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/tabs.php' );
+require_once( FEARLESS_INCLUDES . '/widgets/top-rated-posts.php' );

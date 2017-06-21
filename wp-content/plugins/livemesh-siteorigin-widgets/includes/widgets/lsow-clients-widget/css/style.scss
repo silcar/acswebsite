@@ -1,0 +1,107 @@
+@import "../../../../assets/css/lsow-lib";
+.lsow-clients {
+  overflow: hidden;
+  margin: 0 auto;
+  .lsow-client {
+    position: relative;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    .lsow-dark-bg & {
+      border-color: #505050 !important;
+      }
+    &.lsow-twocol:nth-child(6n + 1) {
+      border-left: 1px solid #ddd;
+      }
+    &.lsow-twocol:nth-child(-n + 6) {
+      border-top: 1px solid #ddd;
+      }
+    &.lsow-onefifthcol:nth-child(5n + 1) {
+      border-left: 1px solid #ddd;
+      }
+    &.lsow-onefifthcol:nth-child(-n + 5) {
+      border-top: 1px solid #ddd;
+      }
+    &.lsow-threecol:nth-child(4n + 1) {
+      border-left: 1px solid #ddd;
+      }
+    &.lsow-threecol:nth-child(-n + 4) {
+      border-top: 1px solid #ddd;
+      }
+    &.lsow-fourcol:nth-child(3n + 1) {
+      border-left: 1px solid #ddd;
+      }
+    &.lsow-fourcol:nth-child(-n + 3) {
+      border-top: 1px solid #ddd;
+      }
+    &.lsow-sixcol:nth-child(2n + 1) {
+      border-left: 1px solid #ddd;
+      }
+    &.lsow-sixcol:nth-child(-n + 2) {
+      border-top: 1px solid #ddd;
+      }
+    @include respond-to-max(800) {
+      &.lsow-twocol:nth-child(n), &.lsow-threecol:nth-child(n), &.lsow-fourcol:nth-child(n), &.lsow-onefifthcol:nth-child(n), &.lsow-sixcol:nth-child(n) {
+        border-left: none;
+        border-top: none;
+        width: 50%;
+        float: left;
+        }
+      &.lsow-twocol:nth-child(2n + 1), &.lsow-threecol:nth-child(2n + 1), &.lsow-fourcol:nth-child(2n + 1), &.lsow-onefifthcol:nth-child(2n + 1), &.lsow-sixcol:nth-child(2n + 1) {
+        border-left: 1px solid #ddd;
+        }
+      &.lsow-twocol:nth-child(-n + 2), &.lsow-threecol:nth-child(-n + 2), &.lsow-fourcol:nth-child(-n + 2), &.lsow-onefifthcol:nth-child(-n + 2), &.lsow-sixcol:nth-child(-n + 2) {
+        border-top: 1px solid #ddd;
+        }
+      }
+    img {
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -moz-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+      width: 100%;
+      margin: 0;
+      }
+    .lsow-client-name {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      margin-top: -12px;
+      color: #fff;
+      font-size: 18px;
+      line-height: 26px;
+      @include lsow-transition(opacity);
+      opacity: 0;
+      a {
+        color: #fff;
+        text-decoration: none;
+        }
+      }
+    .lsow-image-overlay {
+      position: absolute;
+      left: 0;
+      top: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      filter: alpha(opacity=0);
+      -moz-opacity: 0;
+      opacity: 0;
+      @include lsow-transition(opacity);
+      }
+    &:hover {
+      .lsow-image-overlay {
+        opacity: 0.7;
+        .lsow-dark-bg & {
+          opacity: 0.8;
+          }
+        }
+      .lsow-client-name {
+        opacity: 1;
+        }
+      }
+    }
+  }

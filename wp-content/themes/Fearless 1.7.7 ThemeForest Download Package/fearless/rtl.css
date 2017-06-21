@@ -1,0 +1,589 @@
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+
+/* =Global
+-------------------------------------------------------------- */
+
+/* Alignment */
+.alignleft {
+	float: right;
+	margin-left: 1.5em;
+}
+.alignright {
+	float: left;
+	margin-right: 1.5em;
+}
+
+/* Tables */
+th {
+	text-align: right;
+}
+td {
+	border-left: 1px solid #e5e5e5;
+}
+
+/* Text elements */
+blockquote {
+	margin: 2em 1.5em 2em 0;
+	padding-right: 3.5em;
+}
+blockquote:before {
+	content: '”';
+	left: auto;
+	right: 0;
+}
+blockquote cite {
+	text-align: left;
+}
+ul, ol {
+	padding-right: 2em;
+}
+
+
+/* =Topbar
+-------------------------------------------------------------- */
+
+/* Social icons */
+#topbar .social_icons ul li {
+	float: right;
+}
+
+
+/* =Branding
+-------------------------------------------------------------- */
+
+#branding {
+	float: right;
+}
+.logo-image-enabled #site-title a img {
+	float: right;
+}
+
+
+/* =Header Widget Area
+-------------------------------------------------------------- */
+
+#header-widget-area {
+	float: left;
+}
+#header-widget-area .widget {
+	float: left;
+}
+
+
+/* =Menus
+-------------------------------------------------------------- */
+
+/* Superfish base */
+.sf-menu ul {
+	left: auto;
+	right: 0;
+}
+.sf-menu > li {
+	float: right;
+}
+.sf-menu ul ul {
+	left: auto;
+	right: 100%;
+}
+
+/* Primary navigation */
+#primary-navigation .menu {
+	float: right;
+}
+#primary-navigation .menu > li > a.sf-with-ul {
+	padding-right: 1.3em;
+	padding-left: 1.1em;
+}
+#primary-navigation .menu > li > a i {
+	margin-left: 0;
+	margin-right: 0.3em;
+}
+
+/* Secondary navigation */
+#secondary-navigation .menu li {
+	float: right;
+}
+
+/* Footer navigation */
+#footer-navigation ul li {
+	border-left: none;
+	border-right: 1px solid #000;
+	float: right;
+}
+#footer-navigation ul li:first-child {
+	padding-left: 0.75em;
+	border-right: none;
+	padding-right: 0;
+}
+#footer-navigation ul li:last-child {
+	border-right: 1px solid #000;
+}
+
+
+/* =Mobile Navigation
+-------------------------------------------------------------- */
+
+#primary-navigation select.tinynav {
+	padding: 0.5em 1em 0.5em 0;
+}
+
+
+/* =Menubar search
+-------------------------------------------------------------- */
+
+#menubar-search {
+	right: auto;
+	left: 1em;
+}
+#menubar-search-submit {
+	right: auto;
+	left: 0;
+	text-indent: 9999px;
+}
+#menubar-search:before {
+	right: auto;
+	left: 0.4em;
+}
+
+
+/* =Ticker
+-------------------------------------------------------------- */
+
+#ticker .ticker-title {
+	float: right;
+	margin-right: 0;
+	margin-left: 0.75em;
+}
+
+
+/* =Flexslider
+-------------------------------------------------------------- */
+
+/* Carousel slider */
+.carousel-slider.flexslider {
+	direction: ltr;
+}
+.carousel-slider.flexslider .slides li {
+	text-align: right;
+	direction: rtl;
+}
+.carousel-direction-nav {
+	right: auto;
+	left: 0;
+}
+.carousel-direction-nav i {
+	margin-left: 0;
+	margin-right: 0.25em;
+	float: left;
+}
+
+/* Post gallery */
+.gallery-slider-thumbnails {
+	margin: 0.75em 0 2em -10px;
+}
+.gallery-slider-thumbnails a img {
+	padding-right: 0;
+	padding-left: 8px;
+}
+
+
+/* =Post galleries
+-------------------------------------------------------------- */
+
+.gallery-item {
+	float: right;
+	padding: 0 0 1em 1em;
+}
+.gallery-item.col-6 {
+	padding: 0 0 0.5em 0.5em;
+}
+.gallery-item.col-7 {
+	padding: 0 0 0.5em 0.5em;
+}
+.gallery-item.col-8 {
+	padding: 0 0 0.5em 0.5em;
+}
+.gallery-item.col-9 {
+	padding: 0 0 0.3em 0.3em;
+}
+.gallery-item.col-10 {
+	padding: 0 0 0.3em 0.3em;
+}
+
+
+/* =Post Archive Layouts
+----------------------------------------------- */
+
+/* Layout full-width-320 */
+.hentry.layout-1col-half .post-thumbnail-wrap {
+	float: right;
+	margin-right: 0;
+	margin-left: 4%;
+}
+/* Layout full-width-150 */
+.hentry.layout-1col-square .post-thumbnail-wrap {
+	float: right;
+	margin-right: 0;
+	margin-left: 4%;
+}
+
+/* Layout full-width-83 */
+.hentry.layout-1col-thumb .post-thumbnail-wrap {
+	float: right;
+	margin-right: 0;
+	margin-left: 1em;
+}
+
+/* Layout half-width-320 */
+.hentry.layout-2col {
+	float: right;
+	margin-right: 0;
+	margin-left: 7%;
+}
+.hentry.layout-2col.even {
+	margin-left: 0;
+}
+
+
+/* =Layout Modules
+----------------------------------------------- */
+
+.layout-module .column {
+	float: right;
+	margin-right: 0;
+	margin-left: 4%;
+}
+.layout-module .column.last {
+	margin-left: 0;
+}
+.layout-module .post-thumbnail-wrap {
+	float: right;
+	margin-right: 0;
+	margin-left: 1em;
+}
+.layout-module .featured .post-thumbnail-wrap {
+	margin-left: 0;
+}
+.widget_fearless_layout_module_e .post-thumbnail-wrap {
+	margin-left: 0;
+}
+
+
+/* =Pagination
+----------------------------------------------- */
+
+.pagination .page-numbers {
+	float: right;
+	margin-right: 0;
+	margin-left: 0.5em;
+}
+
+
+/* =Review box
+----------------------------------------------- */
+
+.review-box {
+	float: right;
+	margin: 0.4em 0 1em 2em;
+}
+.review-box .label {
+	float: right;
+}
+.review-box .value {
+	float: left;
+}
+.review-short-summary {
+	float: right;
+}
+.review-long-summary {
+	float: right;
+}
+.fearless-star-rating-wrapper {
+	text-align: right;
+}
+.fearless-star-rating-under,
+.fearless-star-rating-over {
+	left: auto;
+	right: 0;
+}
+.fearless-star-rating-wrapper .fa-star {
+	float: right;
+}
+
+
+/* =Authorbox
+----------------------------------------------- */
+
+.authorbox-avatar {
+	float: right;
+	margin: 0 0 0.5em 1.25em;
+}
+
+
+/* =Author Social Profiles
+-------------------------------------------------------------- */
+
+ul.author-social-profiles li {
+	float: right;
+	margin-right: 0;
+	margin-left: 0.25em;
+}
+
+
+/* =Related posts
+----------------------------------------------- */
+
+.related-posts {
+	margin-right: 0;
+	margin-left: -5%;
+}
+.related-posts article {
+	float: right;
+	margin-right: 0;
+	margin-left: 5%;
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+.comment-list ol.children {
+	padding-left: 0;
+	padding-right: 3em;
+}
+.comment-list .avatar {
+	float: right;
+	margin: 0.15em 0 1em 1em;
+}
+.comment-list .comment-content {
+	margin-left: 0;
+	margin-right: 4.25em;
+}
+
+/* Comment reply form */
+#respond label {
+	display: inline-block;
+	padding-right: 1em;
+	text-align: right;
+	width: 6em;
+}
+#respond label {
+	padding-right: 0;
+	padding-left: 1em;
+	text-align: left;
+}
+#respond p.form-allowed-tags {
+	margin-right: 90px; margin-right: 9rem;
+	margin-left: 50px; margin-left: 5rem;
+}
+
+/* Comment reply form - responding to comment */
+.comment #respond #reply-title small a {
+	margin-left: 0;
+	margin-right: 0.5em;
+}
+
+
+/* =Widget-specific styles
+----------------------------------------------- */
+
+/* WordPress Calendar widget */
+.widget_calendar tfoot #prev {
+	text-align: right;
+}
+.widget_calendar tfoot #next {
+	text-align: left;
+}
+
+/* WordPress Archive, Categories, and Nav Menu widgets */
+.widget_archive ul li,
+.widget_categories ul li,
+.widget_nav_menu ul li {
+	float: left;
+	margin-right: 0;
+	margin-left: 4%;
+}
+.widget_archive ul li:nth-child(2n+1),
+.widget_categories ul li:nth-child(2n+1),
+.widget_nav_menu ul li:nth-child(2n+1) {
+	margin-left: 0;
+}
+
+/* WordPress RSS widget */
+.widget_rss .widget-title img {
+	margin-right: 0;
+	margin-left: 0.1em;
+}
+
+/* Generic teaser lists */
+ul.teaser-list .post-thumbnail-wrap {
+	float: right;
+	margin-right: 0;
+	margin-left: 1em;
+}
+ul.teaser-list li .byline {
+	margin-left: 0;
+	margin-right: 63px; margin-right: 6.3rem;
+}
+
+/* Gallery list */
+ul.gallery-list {
+	margin: 0 0 -1em -1em;
+}
+ul.gallery-list li {
+	float: right;
+}
+ul.gallery-list img {
+	padding-right: 0;
+	padding-left: 1em;
+}
+
+/* Fearless Social Icons widget */
+.widget ul.social-icons li {
+	margin-right: 0;
+	margin-left: 0.35em;
+}
+.widget ul.social-icons li:last-child {
+	margin-left: 0;
+}
+
+/* Quick Flickr Widget */
+.widget_quick-flickr-widget .quick-flickr-item {
+	float: right;
+}
+
+/* Fearless tabbed widget */
+#secondary .widget_fearless_tabs .headings li {
+	float: right;
+}
+
+/* Fearless Responsive Image Ad widget */
+.widget_fearless_responsive_image_ad .widget-title {
+	text-align: right;
+}
+
+
+/* =Searchform
+----------------------------------------------- */
+
+#searchform #s {
+	float: right;
+	padding-left: 0;
+	padding-right: 1em;
+}
+#searchform #searchsubmit {
+	float: right;
+}
+
+
+/* =Sharebar
+----------------------------------------------- */
+
+.sharebar {
+	left: auto;
+	right: -0.3em;
+}
+
+
+/* =Footer
+----------------------------------------------- */
+
+/* Footer widget area */
+.footer-widget-area {
+	margin: 3.75em 0 1em -2em;
+}
+.footer-widget-area .column {
+	float: right;
+	padding-right: 0;
+	padding-left: 2em;
+}
+
+/* Copyright/footer menu */
+.footer-left {
+	float: right;
+}
+.footer-right {
+	float: left;
+}
+
+
+/* =Branded footer widget
+----------------------------------------------- */
+
+.widget_fearless_branded_footer ul.social-icons {
+	text-align: right;
+}
+.widget_fearless_branded_footer ul.social-icons li {
+	margin-right: 0;
+	margin-left: 0.5em;
+}
+#footer .widget_fearless_branded_footer ul.social-icons i {
+	left: 0;
+	right: -0.1em;
+}
+
+
+/* =Author List page template
+-------------------------------------------------------------- */
+
+.author-list .authorbox-avatar {
+	margin-right: 0;
+	margin-left: 1.5em;
+}
+
+
+/* =Gallery List page template
+-------------------------------------------------------------- */
+
+section.gallery-list {
+	margin: -2em 0 1.5em -1.5em;
+}
+section.gallery-list article {
+	float: right;
+	padding-right: 0;
+	padding-left: 1.5em;
+}
+
+
+/* =Sitemap page template
+-------------------------------------------------------------- */
+
+section.sitemap {
+	margin: -2em 0 3em -2em;
+}
+section.sitemap .column {
+	float: right;
+	padding-right: 0;
+	padding-left: 2em;
+}
+
+
+/* =Timeline page template
+-------------------------------------------------------------- */
+
+section.timeline ul ul {
+	border-left: none;
+	border-right: 1px solid #eee;
+	margin-left: 0;
+	margin-right: 1em;
+	padding-left: 0;
+	padding-right: 1em;
+}
+
+
+/* =Top Reviews page template
+-------------------------------------------------------------- */
+
+section.top-reviews .review-column-1 {
+	float: right;
+}
+section.top-reviews .review-column-2 {
+	float: right;
+}
+section.top-reviews .review-column-3 {
+	float: right;
+}

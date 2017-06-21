@@ -1,0 +1,12 @@
+/*
+Theme Name: Fearless Child Theme
+Description: Starter child theme for Fearless
+Author: Your Name Here
+Version: 1.0
+Template: fearless
+*/
+
+@import url( '../fearless/style.css' );
+
+
+/* Add your custom CSS styles here */
